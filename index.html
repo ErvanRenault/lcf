@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="background.css">
+    <title>Lorcana Card Viewer</title>
+</head>
+<body>
+
+    <script>
+        let lastModifiedTime = null;
+    
+        function checkFileUpdate() {
+            fetch('index.html', { 
+                method: 'HEAD', 
+                headers: { 
+                    'Cache-Control': 'no-cache'  // Add Cache-Control header to prevent caching
+                }
+            })
+            .then(response => {
+                const modifiedTime = new Date(response.headers.get('last-modified'));
+                if (lastModifiedTime === null) {
+                    lastModifiedTime = modifiedTime;
+                } else if (modifiedTime > lastModifiedTime) {
+                    lastModifiedTime = modifiedTime;
+                    console.log("File has been updated, reloading...");
+                    location.reload();  // Reload the page when file changes
+                }
+            })
+            .catch(error => console.log('Error checking file update:', error));
+        }
+    
+        // Poll every 1 second
+        setInterval(checkFileUpdate, 1000);
+    </script>
+
+    <img id="player1" src="https://api.lorcana.ravensburger.com/images/fr/expansions/6/cards/1468x2048/0bad865a02d82f4970687ffe1b80822b76cc0626.jpg" alt="Player 1 Card" class="image-format">
+    <img id="player2" src="https://api.lorcana.ravensburger.com/images/fr/expansions/6/cards/1468x2048/baab34018148392463ef4c49b5a924409cf5f7b0.jpg" alt="Player 2 Card" class="image-format">
+
+
+    <!-- <img id="player1"  alt="Player 1 Card" class="player1">
+    <img id="player2" alt="Player 2 Card" class="player1"> -->
+
+</body>
+</html>
