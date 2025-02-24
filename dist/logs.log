@@ -1,0 +1,1648 @@
+2024-07-29 20:03:17,152 - DEBUG - BEFORE TRY
+2024-07-29 20:03:17,154 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 20:03:19,054 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Friends%20on%20the%20Other%20Side HTTP/1.1" 200 None
+2024-07-29 20:03:19,060 - DEBUG - Card number
+2024-07-29 20:03:19,060 - DEBUG - 64
+2024-07-29 20:03:19,060 - DEBUG - Set number
+2024-07-29 20:03:19,060 - DEBUG - 1
+2024-07-29 20:03:19,060 - DEBUG - 1
+2024-07-29 20:03:19,060 - DEBUG - 64
+2024-07-29 20:03:19,061 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 20:03:19,518 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/1/64 HTTP/1.1" 200 None
+2024-07-29 20:03:19,524 - DEBUG - <Response [200]>
+2024-07-29 20:03:19,525 - DEBUG - PARSE
+2024-07-29 20:03:19,525 - DEBUG - {'id': 'crd_f9097c53f99d488aa8685b73ea5a9373', 'name': 'Friends on the Other Side', 'layout': 'normal', 'released_at': '2023-08-18', 'image_uris': {'digital': {'small': 'https://cards.lorcast.io/card/digital/small/crd_f9097c53f99d488aa8685b73ea5a9373.avif?1709690747', 'normal': 'https://cards.lorcast.io/card/digital/normal/crd_f9097c53f99d488aa8685b73ea5a9373.avif?1709690747', 'large': 'https://cards.lorcast.io/card/digital/large/crd_f9097c53f99d488aa8685b73ea5a9373.avif?1709690747'}}, 'cost': 3, 'inkwell': True, 'ink': 'Amethyst', 'type': ['Action', 'Song'], 'classifications': None, 'text': '(A character with cost 3 or more can {E} to sing this song for free.) Draw 2 cards.', 'keywords': [], 'move_cost': None, 'strength': None, 'willpower': None, 'lore': None, 'rarity': 'Common', 'illustrators': ['Amber Kommavongsa'], 'collector_number': '64', 'lang': 'en', 'flavor_text': 'The cards, the cards\nthe cards will tell...', 'tcgplayer_id': 494100, 'legalities': {'core': 'legal'}, 'set': {'id': 'set_7ecb0e0c71af496a9e0110e23824e0a5', 'code': '1', 'name': 'The First Chapter'}, 'prices': {'usd': '0.36'}}
+2024-07-29 20:03:22,163 - DEBUG - BEFORE TRY
+2024-07-29 20:03:22,164 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 20:03:23,214 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Maleficent%20-%20Sorceress HTTP/1.1" 200 None
+2024-07-29 20:03:23,216 - DEBUG - Card number
+2024-07-29 20:03:23,216 - DEBUG - 49
+2024-07-29 20:03:23,216 - DEBUG - Set number
+2024-07-29 20:03:23,216 - DEBUG - 1
+2024-07-29 20:03:23,216 - DEBUG - 1
+2024-07-29 20:03:23,216 - DEBUG - 49
+2024-07-29 20:03:23,217 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 20:03:23,655 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/1/49 HTTP/1.1" 200 None
+2024-07-29 20:03:23,660 - DEBUG - <Response [200]>
+2024-07-29 20:03:23,663 - DEBUG - SHIFT_JIS Japanese prober hit error at byte 941
+2024-07-29 20:03:23,664 - DEBUG - EUC-JP Japanese prober hit error at byte 848
+2024-07-29 20:03:23,664 - DEBUG - GB2312 Chinese prober hit error at byte 941
+2024-07-29 20:03:23,665 - DEBUG - EUC-KR Korean prober hit error at byte 848
+2024-07-29 20:03:23,665 - DEBUG - CP949 Korean prober hit error at byte 848
+2024-07-29 20:03:23,666 - DEBUG - Big5 Chinese prober hit error at byte 849
+2024-07-29 20:03:23,666 - DEBUG - EUC-TW Taiwan prober hit error at byte 848
+2024-07-29 20:03:23,668 - DEBUG - utf-8  confidence = 0.7525
+2024-07-29 20:03:23,668 - DEBUG - SHIFT_JIS not active
+2024-07-29 20:03:23,669 - DEBUG - EUC-JP not active
+2024-07-29 20:03:23,669 - DEBUG - GB2312 not active
+2024-07-29 20:03:23,669 - DEBUG - EUC-KR not active
+2024-07-29 20:03:23,669 - DEBUG - CP949 not active
+2024-07-29 20:03:23,669 - DEBUG - Big5 not active
+2024-07-29 20:03:23,669 - DEBUG - EUC-TW not active
+2024-07-29 20:03:23,669 - DEBUG - windows-1251 Russian confidence = 0.01
+2024-07-29 20:03:23,669 - DEBUG - KOI8-R Russian confidence = 0.01
+2024-07-29 20:03:23,669 - DEBUG - ISO-8859-5 Russian confidence = 0.01
+2024-07-29 20:03:23,669 - DEBUG - MacCyrillic Russian confidence = 0.0
+2024-07-29 20:03:23,669 - DEBUG - IBM866 Russian confidence = 0.0
+2024-07-29 20:03:23,669 - DEBUG - IBM855 Russian confidence = 0.01
+2024-07-29 20:03:23,669 - DEBUG - ISO-8859-7 Greek confidence = 0.01
+2024-07-29 20:03:23,669 - DEBUG - windows-1253 Greek confidence = 0.01
+2024-07-29 20:03:23,669 - DEBUG - ISO-8859-5 Bulgairan confidence = 0.01
+2024-07-29 20:03:23,669 - DEBUG - windows-1251 Bulgarian confidence = 0.01
+2024-07-29 20:03:23,669 - DEBUG - TIS-620 Thai confidence = 0.01
+2024-07-29 20:03:23,669 - DEBUG - ISO-8859-9 Turkish confidence = 0.466060877850576
+2024-07-29 20:03:23,669 - DEBUG - windows-1255 Hebrew confidence = 0.0
+2024-07-29 20:03:23,669 - DEBUG - windows-1255 Hebrew confidence = 0.0
+2024-07-29 20:03:23,669 - DEBUG - windows-1255 Hebrew confidence = 0.0
+2024-07-29 20:03:23,669 - DEBUG - utf-8  confidence = 0.7525
+2024-07-29 20:03:23,669 - DEBUG - SHIFT_JIS not active
+2024-07-29 20:03:23,669 - DEBUG - EUC-JP not active
+2024-07-29 20:03:23,669 - DEBUG - GB2312 not active
+2024-07-29 20:03:23,669 - DEBUG - EUC-KR not active
+2024-07-29 20:03:23,670 - DEBUG - CP949 not active
+2024-07-29 20:03:23,670 - DEBUG - Big5 not active
+2024-07-29 20:03:23,670 - DEBUG - EUC-TW not active
+2024-07-29 20:03:23,670 - DEBUG - PARSE
+2024-07-29 20:03:23,670 - DEBUG - {'id': 'crd_ff8bf99d2bd84183bcc4b5d7a18360f0', 'name': 'Maleficent', 'version': 'Sorceress', 'layout': 'normal', 'released_at': '2023-08-18', 'image_uris': {'digital': {'small': 'https://cards.lorcast.io/card/digital/small/crd_ff8bf99d2bd84183bcc4b5d7a18360f0.avif?1709690747', 'normal': 'https://cards.lorcast.io/card/digital/normal/crd_ff8bf99d2bd84183bcc4b5d7a18360f0.avif?1709690747', 'large': 'https://cards.lorcast.io/card/digital/large/crd_ff8bf99d2bd84183bcc4b5d7a18360f0.avif?1709690747'}}, 'cost': 3, 'inkwell': True, 'ink': 'Amethyst', 'type': ['Character'], 'classifications': ['Storyborn', 'Villain', 'Sorcerer'], 'text': 'CAST MY SPELL! When you play this character, you may draw a card.', 'keywords': [], 'move_cost': None, 'strength': 2, 'willpower': 2, 'lore': 1, 'rarity': 'Common', 'illustrators': ['Valerio Buonfantino'], 'collector_number': '49', 'lang': 'en', 'flavor_text': '“You dare challenge me? Fool, my magic is more\npowerful than you could possibly imagine!”', 'tcgplayer_id': 494103, 'legalities': {'core': 'legal'}, 'set': {'id': 'set_7ecb0e0c71af496a9e0110e23824e0a5', 'code': '1', 'name': 'The First Chapter'}, 'prices': {'usd': '0.2'}}
+2024-07-29 20:03:26,317 - DEBUG - BEFORE TRY
+2024-07-29 20:03:26,318 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 20:03:27,302 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Brawl HTTP/1.1" 200 None
+2024-07-29 20:03:27,308 - DEBUG - Card number
+2024-07-29 20:03:27,308 - DEBUG - 130
+2024-07-29 20:03:27,308 - DEBUG - Set number
+2024-07-29 20:03:27,308 - DEBUG - 4
+2024-07-29 20:03:27,308 - DEBUG - 4
+2024-07-29 20:03:27,308 - DEBUG - 130
+2024-07-29 20:03:27,311 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 20:03:27,709 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/4/130 HTTP/1.1" 200 None
+2024-07-29 20:03:27,710 - DEBUG - <Response [200]>
+2024-07-29 20:03:27,712 - DEBUG - SHIFT_JIS Japanese prober hit error at byte 834
+2024-07-29 20:03:27,713 - DEBUG - EUC-JP Japanese prober hit error at byte 832
+2024-07-29 20:03:27,713 - DEBUG - GB2312 Chinese prober hit error at byte 834
+2024-07-29 20:03:27,714 - DEBUG - EUC-KR Korean prober hit error at byte 832
+2024-07-29 20:03:27,714 - DEBUG - CP949 Korean prober hit error at byte 832
+2024-07-29 20:03:27,715 - DEBUG - Big5 Chinese prober hit error at byte 833
+2024-07-29 20:03:27,716 - DEBUG - EUC-TW Taiwan prober hit error at byte 832
+2024-07-29 20:03:27,717 - DEBUG - utf-8  confidence = 0.505
+2024-07-29 20:03:27,717 - DEBUG - SHIFT_JIS not active
+2024-07-29 20:03:27,717 - DEBUG - EUC-JP not active
+2024-07-29 20:03:27,717 - DEBUG - GB2312 not active
+2024-07-29 20:03:27,718 - DEBUG - EUC-KR not active
+2024-07-29 20:03:27,718 - DEBUG - CP949 not active
+2024-07-29 20:03:27,718 - DEBUG - Big5 not active
+2024-07-29 20:03:27,718 - DEBUG - EUC-TW not active
+2024-07-29 20:03:27,718 - DEBUG - windows-1251 Russian confidence = 0.01
+2024-07-29 20:03:27,718 - DEBUG - KOI8-R Russian confidence = 0.01
+2024-07-29 20:03:27,718 - DEBUG - ISO-8859-5 Russian confidence = 0.01
+2024-07-29 20:03:27,718 - DEBUG - MacCyrillic Russian confidence = 0.0
+2024-07-29 20:03:27,718 - DEBUG - IBM866 Russian confidence = 0.0
+2024-07-29 20:03:27,718 - DEBUG - IBM855 Russian confidence = 0.01
+2024-07-29 20:03:27,718 - DEBUG - ISO-8859-7 Greek confidence = 0.01
+2024-07-29 20:03:27,718 - DEBUG - windows-1253 Greek confidence = 0.01
+2024-07-29 20:03:27,718 - DEBUG - ISO-8859-5 Bulgairan confidence = 0.01
+2024-07-29 20:03:27,718 - DEBUG - windows-1251 Bulgarian confidence = 0.01
+2024-07-29 20:03:27,718 - DEBUG - TIS-620 Thai confidence = 0.01
+2024-07-29 20:03:27,718 - DEBUG - ISO-8859-9 Turkish confidence = 0.47327352147298346
+2024-07-29 20:03:27,718 - DEBUG - windows-1255 Hebrew confidence = 0.0
+2024-07-29 20:03:27,718 - DEBUG - windows-1255 Hebrew confidence = 0.01
+2024-07-29 20:03:27,718 - DEBUG - windows-1255 Hebrew confidence = 0.01
+2024-07-29 20:03:27,718 - DEBUG - PARSE
+2024-07-29 20:03:27,718 - DEBUG - {'id': 'crd_be06b6df39cd46c2a192ae1be15fb42c', 'name': 'Brawl', 'layout': 'normal', 'released_at': '2024-05-17', 'image_uris': {'digital': {'small': 'https://cards.lorcast.io/card/digital/small/crd_be06b6df39cd46c2a192ae1be15fb42c.avif?1716052430', 'normal': 'https://cards.lorcast.io/card/digital/normal/crd_be06b6df39cd46c2a192ae1be15fb42c.avif?1716052430', 'large': 'https://cards.lorcast.io/card/digital/large/crd_be06b6df39cd46c2a192ae1be15fb42c.avif?1716052430'}}, 'cost': 3, 'inkwell': True, 'ink': 'Ruby', 'type': ['Action'], 'classifications': None, 'text': 'Banish chosen character with 2 {S} or less.', 'keywords': [], 'move_cost': None, 'strength': None, 'willpower': None, 'lore': None, 'rarity': 'Common', 'illustrators': ['R. la Barbera / L. Giammichele'], 'collector_number': '130', 'lang': 'en', 'flavor_text': 'There are two ways to leave the Snuggly Duckling â€” the door or the window.', 'tcgplayer_id': 547776, 'legalities': {'core': 'legal'}, 'set': {'id': 'set_8f4cbf5aef324eb295c4add5673e684f', 'code': '4', 'name': "Ursula's Return"}, 'prices': {'usd': '0.21'}}
+2024-07-29 20:03:33,002 - DEBUG - BEFORE TRY
+2024-07-29 20:03:33,005 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 20:03:34,044 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Be%20King%20Undisputed HTTP/1.1" 200 None
+2024-07-29 20:03:34,048 - DEBUG - Card number
+2024-07-29 20:03:34,048 - DEBUG - 129
+2024-07-29 20:03:34,048 - DEBUG - Set number
+2024-07-29 20:03:34,048 - DEBUG - 4
+2024-07-29 20:03:34,048 - DEBUG - 4
+2024-07-29 20:03:34,048 - DEBUG - 129
+2024-07-29 20:03:34,049 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 20:03:34,479 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/4/129 HTTP/1.1" 200 None
+2024-07-29 20:03:34,480 - DEBUG - <Response [200]>
+2024-07-29 20:03:34,480 - DEBUG - PARSE
+2024-07-29 20:03:34,480 - DEBUG - {'id': 'crd_40dfc709e42242c8bf1a905735708345', 'name': 'Be King Undisputed', 'layout': 'normal', 'released_at': '2024-05-17', 'image_uris': {'digital': {'small': 'https://cards.lorcast.io/card/digital/small/crd_40dfc709e42242c8bf1a905735708345.avif?1716052430', 'normal': 'https://cards.lorcast.io/card/digital/normal/crd_40dfc709e42242c8bf1a905735708345.avif?1716052430', 'large': 'https://cards.lorcast.io/card/digital/large/crd_40dfc709e42242c8bf1a905735708345.avif?1716052430'}}, 'cost': 4, 'inkwell': False, 'ink': 'Ruby', 'type': ['Action', 'Song'], 'classifications': None, 'text': '(A character with cost 4 or more can {E} to sing this song for free.)\nEach opponent chooses and banishes one of their characters.', 'keywords': [], 'move_cost': None, 'strength': None, 'willpower': None, 'lore': None, 'rarity': 'Rare', 'illustrators': ['Emily Abeydeera'], 'collector_number': '129', 'lang': 'en', 'flavor_text': 'Respected, saluted', 'tcgplayer_id': 547769, 'legalities': {'core': 'legal'}, 'set': {'id': 'set_8f4cbf5aef324eb295c4add5673e684f', 'code': '4', 'name': "Ursula's Return"}, 'prices': {'usd': '1.94'}}
+2024-07-29 20:04:10,682 - DEBUG - BEFORE TRY
+2024-07-29 20:04:10,683 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 20:04:11,717 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=The%20Sorcerer's%20Spellbook HTTP/1.1" 200 None
+2024-07-29 20:04:11,719 - DEBUG - Card number
+2024-07-29 20:04:11,719 - DEBUG - 68
+2024-07-29 20:04:11,719 - DEBUG - Set number
+2024-07-29 20:04:11,719 - DEBUG - 2
+2024-07-29 20:04:11,719 - DEBUG - 2
+2024-07-29 20:04:11,719 - DEBUG - 68
+2024-07-29 20:04:11,719 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 20:04:12,166 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/2/68 HTTP/1.1" 200 None
+2024-07-29 20:04:12,170 - DEBUG - <Response [200]>
+2024-07-29 20:04:12,172 - DEBUG - SHIFT_JIS Japanese prober hit error at byte 587
+2024-07-29 20:04:12,172 - DEBUG - EUC-JP Japanese prober hit error at byte 585
+2024-07-29 20:04:12,173 - DEBUG - GB2312 Chinese prober hit error at byte 587
+2024-07-29 20:04:12,173 - DEBUG - EUC-KR Korean prober hit error at byte 585
+2024-07-29 20:04:12,173 - DEBUG - CP949 Korean prober hit error at byte 585
+2024-07-29 20:04:12,174 - DEBUG - Big5 Chinese prober hit error at byte 586
+2024-07-29 20:04:12,174 - DEBUG - EUC-TW Taiwan prober hit error at byte 585
+2024-07-29 20:04:12,175 - DEBUG - utf-8  confidence = 0.7525
+2024-07-29 20:04:12,175 - DEBUG - SHIFT_JIS not active
+2024-07-29 20:04:12,175 - DEBUG - EUC-JP not active
+2024-07-29 20:04:12,175 - DEBUG - GB2312 not active
+2024-07-29 20:04:12,175 - DEBUG - EUC-KR not active
+2024-07-29 20:04:12,175 - DEBUG - CP949 not active
+2024-07-29 20:04:12,175 - DEBUG - Big5 not active
+2024-07-29 20:04:12,175 - DEBUG - EUC-TW not active
+2024-07-29 20:04:12,175 - DEBUG - windows-1251 Russian confidence = 0.01
+2024-07-29 20:04:12,175 - DEBUG - KOI8-R Russian confidence = 0.01
+2024-07-29 20:04:12,175 - DEBUG - ISO-8859-5 Russian confidence = 0.01
+2024-07-29 20:04:12,175 - DEBUG - MacCyrillic Russian confidence = 0.0
+2024-07-29 20:04:12,175 - DEBUG - IBM866 Russian confidence = 0.0
+2024-07-29 20:04:12,175 - DEBUG - IBM855 Russian confidence = 0.01
+2024-07-29 20:04:12,175 - DEBUG - ISO-8859-7 Greek confidence = 0.0
+2024-07-29 20:04:12,175 - DEBUG - windows-1253 Greek confidence = 0.0
+2024-07-29 20:04:12,175 - DEBUG - ISO-8859-5 Bulgairan confidence = 0.0
+2024-07-29 20:04:12,175 - DEBUG - windows-1251 Bulgarian confidence = 0.0
+2024-07-29 20:04:12,175 - DEBUG - TIS-620 Thai confidence = 0.01
+2024-07-29 20:04:12,175 - DEBUG - ISO-8859-9 Turkish confidence = 0.4436916013207128
+2024-07-29 20:04:12,175 - DEBUG - windows-1255 Hebrew confidence = 0.0
+2024-07-29 20:04:12,176 - DEBUG - windows-1255 Hebrew confidence = 0.0
+2024-07-29 20:04:12,176 - DEBUG - windows-1255 Hebrew confidence = 0.0
+2024-07-29 20:04:12,176 - DEBUG - utf-8  confidence = 0.7525
+2024-07-29 20:04:12,176 - DEBUG - SHIFT_JIS not active
+2024-07-29 20:04:12,176 - DEBUG - EUC-JP not active
+2024-07-29 20:04:12,176 - DEBUG - GB2312 not active
+2024-07-29 20:04:12,176 - DEBUG - EUC-KR not active
+2024-07-29 20:04:12,176 - DEBUG - CP949 not active
+2024-07-29 20:04:12,176 - DEBUG - Big5 not active
+2024-07-29 20:04:12,176 - DEBUG - EUC-TW not active
+2024-07-29 20:04:12,176 - DEBUG - PARSE
+2024-07-29 20:04:12,176 - DEBUG - {'id': 'crd_c48a5579b74d4299b4bc48db0776cd36', 'name': "The Sorcerer's Spellbook", 'layout': 'normal', 'released_at': '2023-11-17', 'image_uris': {'digital': {'small': 'https://cards.lorcast.io/card/digital/small/crd_c48a5579b74d4299b4bc48db0776cd36.avif?1709690747', 'normal': 'https://cards.lorcast.io/card/digital/normal/crd_c48a5579b74d4299b4bc48db0776cd36.avif?1709690747', 'large': 'https://cards.lorcast.io/card/digital/large/crd_c48a5579b74d4299b4bc48db0776cd36.avif?1709690747'}}, 'cost': 3, 'inkwell': False, 'ink': 'Amethyst', 'type': ['Item'], 'classifications': None, 'text': 'KNOWLEDGE {E}, 1 {I} — Gain 1 lore.', 'keywords': [], 'move_cost': None, 'strength': None, 'willpower': None, 'lore': None, 'rarity': 'Rare', 'illustrators': ['Julie Vu'], 'collector_number': '68', 'lang': 'en', 'flavor_text': 'Illumineers seek the power of knowledge—but must be\naware of the price.', 'tcgplayer_id': 516340, 'legalities': {'core': 'legal'}, 'set': {'id': 'set_142d2dfb5d4b4b739a1017dc4bb0fcd2', 'code': '2', 'name': 'Rise of the Floodborn'}, 'prices': {'usd': '0.65'}}
+2024-07-29 20:04:46,308 - DEBUG - BEFORE TRY
+2024-07-29 20:04:46,311 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 20:04:47,328 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Madam%20Mim%20-%20Snake HTTP/1.1" 200 None
+2024-07-29 20:04:47,331 - DEBUG - Card number
+2024-07-29 20:04:47,331 - DEBUG - 49
+2024-07-29 20:04:47,331 - DEBUG - Set number
+2024-07-29 20:04:47,331 - DEBUG - 2
+2024-07-29 20:04:47,331 - DEBUG - 2
+2024-07-29 20:04:47,331 - DEBUG - 49
+2024-07-29 20:04:47,331 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 20:04:47,766 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/2/49 HTTP/1.1" 200 None
+2024-07-29 20:04:47,768 - DEBUG - <Response [200]>
+2024-07-29 20:04:47,771 - DEBUG - SHIFT_JIS Japanese prober hit error at byte 914
+2024-07-29 20:04:47,772 - DEBUG - EUC-JP Japanese prober hit error at byte 884
+2024-07-29 20:04:47,772 - DEBUG - GB2312 Chinese prober hit error at byte 914
+2024-07-29 20:04:47,773 - DEBUG - EUC-KR Korean prober hit error at byte 884
+2024-07-29 20:04:47,773 - DEBUG - CP949 Korean prober hit error at byte 884
+2024-07-29 20:04:47,774 - DEBUG - Big5 Chinese prober hit error at byte 885
+2024-07-29 20:04:47,775 - DEBUG - EUC-TW Taiwan prober hit error at byte 884
+2024-07-29 20:04:47,776 - DEBUG - utf-8  confidence = 0.7525
+2024-07-29 20:04:47,776 - DEBUG - SHIFT_JIS not active
+2024-07-29 20:04:47,776 - DEBUG - EUC-JP not active
+2024-07-29 20:04:47,776 - DEBUG - GB2312 not active
+2024-07-29 20:04:47,776 - DEBUG - EUC-KR not active
+2024-07-29 20:04:47,776 - DEBUG - CP949 not active
+2024-07-29 20:04:47,776 - DEBUG - Big5 not active
+2024-07-29 20:04:47,776 - DEBUG - EUC-TW not active
+2024-07-29 20:04:47,776 - DEBUG - windows-1251 Russian confidence = 0.01
+2024-07-29 20:04:47,776 - DEBUG - KOI8-R Russian confidence = 0.01
+2024-07-29 20:04:47,776 - DEBUG - ISO-8859-5 Russian confidence = 0.01
+2024-07-29 20:04:47,776 - DEBUG - MacCyrillic Russian confidence = 0.0
+2024-07-29 20:04:47,776 - DEBUG - IBM866 Russian confidence = 0.0
+2024-07-29 20:04:47,776 - DEBUG - IBM855 Russian confidence = 0.01
+2024-07-29 20:04:47,776 - DEBUG - ISO-8859-7 Greek confidence = 0.01
+2024-07-29 20:04:47,776 - DEBUG - windows-1253 Greek confidence = 0.01
+2024-07-29 20:04:47,776 - DEBUG - ISO-8859-5 Bulgairan confidence = 0.01
+2024-07-29 20:04:47,776 - DEBUG - windows-1251 Bulgarian confidence = 0.01
+2024-07-29 20:04:47,776 - DEBUG - TIS-620 Thai confidence = 0.01
+2024-07-29 20:04:47,777 - DEBUG - ISO-8859-9 Turkish confidence = 0.49842075536193453
+2024-07-29 20:04:47,777 - DEBUG - windows-1255 Hebrew confidence = 0.0
+2024-07-29 20:04:47,777 - DEBUG - windows-1255 Hebrew confidence = 0.01
+2024-07-29 20:04:47,777 - DEBUG - windows-1255 Hebrew confidence = 0.01
+2024-07-29 20:04:47,777 - DEBUG - utf-8  confidence = 0.7525
+2024-07-29 20:04:47,777 - DEBUG - SHIFT_JIS not active
+2024-07-29 20:04:47,777 - DEBUG - EUC-JP not active
+2024-07-29 20:04:47,777 - DEBUG - GB2312 not active
+2024-07-29 20:04:47,777 - DEBUG - EUC-KR not active
+2024-07-29 20:04:47,777 - DEBUG - CP949 not active
+2024-07-29 20:04:47,777 - DEBUG - Big5 not active
+2024-07-29 20:04:47,777 - DEBUG - EUC-TW not active
+2024-07-29 20:04:47,777 - DEBUG - PARSE
+2024-07-29 20:04:47,777 - DEBUG - {'id': 'crd_1718e93b703240a8a8be4fd0ab13b4e6', 'name': 'Madam Mim', 'version': 'Snake', 'layout': 'normal', 'released_at': '2023-11-17', 'image_uris': {'digital': {'small': 'https://cards.lorcast.io/card/digital/small/crd_1718e93b703240a8a8be4fd0ab13b4e6.avif?1709690747', 'normal': 'https://cards.lorcast.io/card/digital/normal/crd_1718e93b703240a8a8be4fd0ab13b4e6.avif?1709690747', 'large': 'https://cards.lorcast.io/card/digital/large/crd_1718e93b703240a8a8be4fd0ab13b4e6.avif?1709690747'}}, 'cost': 2, 'inkwell': True, 'ink': 'Amethyst', 'type': ['Character'], 'classifications': ['Storyborn', 'Villain', 'Sorcerer'], 'text': 'JUST YOU WAIT When you play this character, banish her or return another chosen character of yours to your hand.', 'keywords': [], 'move_cost': None, 'strength': 3, 'willpower': 3, 'lore': 1, 'rarity': 'Uncommon', 'illustrators': ['Brian Weisz'], 'collector_number': '49', 'lang': 'en', 'flavor_text': "“I've got you rattled now!”", 'tcgplayer_id': 522651, 'legalities': {'core': 'legal'}, 'set': {'id': 'set_142d2dfb5d4b4b739a1017dc4bb0fcd2', 'code': '2', 'name': 'Rise of the Floodborn'}, 'prices': {'usd': '0.19'}}
+2024-07-29 20:04:52,330 - DEBUG - BEFORE TRY
+2024-07-29 20:04:52,334 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 20:04:53,413 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Be%20Prepared HTTP/1.1" 200 None
+2024-07-29 20:04:53,416 - DEBUG - Card number
+2024-07-29 20:04:53,416 - DEBUG - 128
+2024-07-29 20:04:53,416 - DEBUG - Set number
+2024-07-29 20:04:53,416 - DEBUG - 1
+2024-07-29 20:04:53,416 - DEBUG - 1
+2024-07-29 20:04:53,416 - DEBUG - 128
+2024-07-29 20:04:53,417 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 20:04:53,614 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/1/128 HTTP/1.1" 200 None
+2024-07-29 20:04:53,620 - DEBUG - <Response [200]>
+2024-07-29 20:04:53,620 - DEBUG - PARSE
+2024-07-29 20:04:53,620 - DEBUG - {'id': 'crd_a7c6d3aa2de6462f8d205d70a8fcc54f', 'name': 'Be Prepared', 'layout': 'normal', 'released_at': '2023-08-18', 'image_uris': {'digital': {'small': 'https://cards.lorcast.io/card/digital/small/crd_a7c6d3aa2de6462f8d205d70a8fcc54f.avif?1709690747', 'normal': 'https://cards.lorcast.io/card/digital/normal/crd_a7c6d3aa2de6462f8d205d70a8fcc54f.avif?1709690747', 'large': 'https://cards.lorcast.io/card/digital/large/crd_a7c6d3aa2de6462f8d205d70a8fcc54f.avif?1709690747'}}, 'cost': 7, 'inkwell': False, 'ink': 'Ruby', 'type': ['Action', 'Song'], 'classifications': None, 'text': '(A character with cost 7 or more can {E} to sing this song for free.)\nBanish all characters.', 'keywords': [], 'move_cost': None, 'strength': None, 'willpower': None, 'lore': None, 'rarity': 'Rare', 'illustrators': ['Jared Nickerl'], 'collector_number': '128', 'lang': 'en', 'flavor_text': 'Our teeth and ambitions are bared!', 'tcgplayer_id': 506077, 'legalities': {'core': 'legal'}, 'set': {'id': 'set_7ecb0e0c71af496a9e0110e23824e0a5', 'code': '1', 'name': 'The First Chapter'}, 'prices': {'usd': '10.3'}}
+2024-07-29 20:04:56,811 - DEBUG - BEFORE TRY
+2024-07-29 20:04:56,814 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 20:04:57,777 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Brawl HTTP/1.1" 200 None
+2024-07-29 20:04:57,779 - DEBUG - Card number
+2024-07-29 20:04:57,779 - DEBUG - 130
+2024-07-29 20:04:57,779 - DEBUG - Set number
+2024-07-29 20:04:57,779 - DEBUG - 4
+2024-07-29 20:04:57,779 - DEBUG - 4
+2024-07-29 20:04:57,779 - DEBUG - 130
+2024-07-29 20:04:57,780 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 20:04:58,272 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/4/130 HTTP/1.1" 200 None
+2024-07-29 20:04:58,277 - DEBUG - <Response [200]>
+2024-07-29 20:04:58,279 - DEBUG - SHIFT_JIS Japanese prober hit error at byte 834
+2024-07-29 20:04:58,280 - DEBUG - EUC-JP Japanese prober hit error at byte 832
+2024-07-29 20:04:58,280 - DEBUG - GB2312 Chinese prober hit error at byte 834
+2024-07-29 20:04:58,282 - DEBUG - EUC-KR Korean prober hit error at byte 832
+2024-07-29 20:04:58,282 - DEBUG - CP949 Korean prober hit error at byte 832
+2024-07-29 20:04:58,283 - DEBUG - Big5 Chinese prober hit error at byte 833
+2024-07-29 20:04:58,283 - DEBUG - EUC-TW Taiwan prober hit error at byte 832
+2024-07-29 20:04:58,284 - DEBUG - utf-8  confidence = 0.505
+2024-07-29 20:04:58,284 - DEBUG - SHIFT_JIS not active
+2024-07-29 20:04:58,284 - DEBUG - EUC-JP not active
+2024-07-29 20:04:58,284 - DEBUG - GB2312 not active
+2024-07-29 20:04:58,284 - DEBUG - EUC-KR not active
+2024-07-29 20:04:58,284 - DEBUG - CP949 not active
+2024-07-29 20:04:58,284 - DEBUG - Big5 not active
+2024-07-29 20:04:58,284 - DEBUG - EUC-TW not active
+2024-07-29 20:04:58,284 - DEBUG - windows-1251 Russian confidence = 0.01
+2024-07-29 20:04:58,284 - DEBUG - KOI8-R Russian confidence = 0.01
+2024-07-29 20:04:58,284 - DEBUG - ISO-8859-5 Russian confidence = 0.01
+2024-07-29 20:04:58,284 - DEBUG - MacCyrillic Russian confidence = 0.0
+2024-07-29 20:04:58,284 - DEBUG - IBM866 Russian confidence = 0.0
+2024-07-29 20:04:58,284 - DEBUG - IBM855 Russian confidence = 0.01
+2024-07-29 20:04:58,284 - DEBUG - ISO-8859-7 Greek confidence = 0.01
+2024-07-29 20:04:58,284 - DEBUG - windows-1253 Greek confidence = 0.01
+2024-07-29 20:04:58,284 - DEBUG - ISO-8859-5 Bulgairan confidence = 0.01
+2024-07-29 20:04:58,284 - DEBUG - windows-1251 Bulgarian confidence = 0.01
+2024-07-29 20:04:58,284 - DEBUG - TIS-620 Thai confidence = 0.01
+2024-07-29 20:04:58,284 - DEBUG - ISO-8859-9 Turkish confidence = 0.47327352147298346
+2024-07-29 20:04:58,285 - DEBUG - windows-1255 Hebrew confidence = 0.0
+2024-07-29 20:04:58,285 - DEBUG - windows-1255 Hebrew confidence = 0.01
+2024-07-29 20:04:58,285 - DEBUG - windows-1255 Hebrew confidence = 0.01
+2024-07-29 20:04:58,285 - DEBUG - PARSE
+2024-07-29 20:04:58,285 - DEBUG - {'id': 'crd_be06b6df39cd46c2a192ae1be15fb42c', 'name': 'Brawl', 'layout': 'normal', 'released_at': '2024-05-17', 'image_uris': {'digital': {'small': 'https://cards.lorcast.io/card/digital/small/crd_be06b6df39cd46c2a192ae1be15fb42c.avif?1716052430', 'normal': 'https://cards.lorcast.io/card/digital/normal/crd_be06b6df39cd46c2a192ae1be15fb42c.avif?1716052430', 'large': 'https://cards.lorcast.io/card/digital/large/crd_be06b6df39cd46c2a192ae1be15fb42c.avif?1716052430'}}, 'cost': 3, 'inkwell': True, 'ink': 'Ruby', 'type': ['Action'], 'classifications': None, 'text': 'Banish chosen character with 2 {S} or less.', 'keywords': [], 'move_cost': None, 'strength': None, 'willpower': None, 'lore': None, 'rarity': 'Common', 'illustrators': ['R. la Barbera / L. Giammichele'], 'collector_number': '130', 'lang': 'en', 'flavor_text': 'There are two ways to leave the Snuggly Duckling â€” the door or the window.', 'tcgplayer_id': 547776, 'legalities': {'core': 'legal'}, 'set': {'id': 'set_8f4cbf5aef324eb295c4add5673e684f', 'code': '4', 'name': "Ursula's Return"}, 'prices': {'usd': '0.21'}}
+2024-07-29 20:05:06,036 - DEBUG - BEFORE TRY
+2024-07-29 20:05:06,038 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 20:05:07,173 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Be%20King%20Undisputed HTTP/1.1" 200 None
+2024-07-29 20:05:07,177 - DEBUG - Card number
+2024-07-29 20:05:07,177 - DEBUG - 129
+2024-07-29 20:05:07,177 - DEBUG - Set number
+2024-07-29 20:05:07,177 - DEBUG - 4
+2024-07-29 20:05:07,177 - DEBUG - 4
+2024-07-29 20:05:07,177 - DEBUG - 129
+2024-07-29 20:05:07,179 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 20:05:07,615 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/4/129 HTTP/1.1" 200 None
+2024-07-29 20:05:07,616 - DEBUG - <Response [200]>
+2024-07-29 20:05:07,616 - DEBUG - PARSE
+2024-07-29 20:05:07,616 - DEBUG - {'id': 'crd_40dfc709e42242c8bf1a905735708345', 'name': 'Be King Undisputed', 'layout': 'normal', 'released_at': '2024-05-17', 'image_uris': {'digital': {'small': 'https://cards.lorcast.io/card/digital/small/crd_40dfc709e42242c8bf1a905735708345.avif?1716052430', 'normal': 'https://cards.lorcast.io/card/digital/normal/crd_40dfc709e42242c8bf1a905735708345.avif?1716052430', 'large': 'https://cards.lorcast.io/card/digital/large/crd_40dfc709e42242c8bf1a905735708345.avif?1716052430'}}, 'cost': 4, 'inkwell': False, 'ink': 'Ruby', 'type': ['Action', 'Song'], 'classifications': None, 'text': '(A character with cost 4 or more can {E} to sing this song for free.)\nEach opponent chooses and banishes one of their characters.', 'keywords': [], 'move_cost': None, 'strength': None, 'willpower': None, 'lore': None, 'rarity': 'Rare', 'illustrators': ['Emily Abeydeera'], 'collector_number': '129', 'lang': 'en', 'flavor_text': 'Respected, saluted', 'tcgplayer_id': 547769, 'legalities': {'core': 'legal'}, 'set': {'id': 'set_8f4cbf5aef324eb295c4add5673e684f', 'code': '4', 'name': "Ursula's Return"}, 'prices': {'usd': '1.94'}}
+2024-07-29 20:05:10,581 - DEBUG - BEFORE TRY
+2024-07-29 20:05:10,582 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 20:05:11,631 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=The%20Sorcerer's%20Spellbook HTTP/1.1" 200 None
+2024-07-29 20:05:11,634 - DEBUG - Card number
+2024-07-29 20:05:11,634 - DEBUG - 68
+2024-07-29 20:05:11,635 - DEBUG - Set number
+2024-07-29 20:05:11,635 - DEBUG - 2
+2024-07-29 20:05:11,635 - DEBUG - 2
+2024-07-29 20:05:11,635 - DEBUG - 68
+2024-07-29 20:05:11,635 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 20:05:12,067 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/2/68 HTTP/1.1" 200 None
+2024-07-29 20:05:12,070 - DEBUG - <Response [200]>
+2024-07-29 20:05:12,071 - DEBUG - SHIFT_JIS Japanese prober hit error at byte 587
+2024-07-29 20:05:12,072 - DEBUG - EUC-JP Japanese prober hit error at byte 585
+2024-07-29 20:05:12,073 - DEBUG - GB2312 Chinese prober hit error at byte 587
+2024-07-29 20:05:12,073 - DEBUG - EUC-KR Korean prober hit error at byte 585
+2024-07-29 20:05:12,073 - DEBUG - CP949 Korean prober hit error at byte 585
+2024-07-29 20:05:12,074 - DEBUG - Big5 Chinese prober hit error at byte 586
+2024-07-29 20:05:12,074 - DEBUG - EUC-TW Taiwan prober hit error at byte 585
+2024-07-29 20:05:12,075 - DEBUG - utf-8  confidence = 0.7525
+2024-07-29 20:05:12,075 - DEBUG - SHIFT_JIS not active
+2024-07-29 20:05:12,075 - DEBUG - EUC-JP not active
+2024-07-29 20:05:12,075 - DEBUG - GB2312 not active
+2024-07-29 20:05:12,075 - DEBUG - EUC-KR not active
+2024-07-29 20:05:12,076 - DEBUG - CP949 not active
+2024-07-29 20:05:12,076 - DEBUG - Big5 not active
+2024-07-29 20:05:12,076 - DEBUG - EUC-TW not active
+2024-07-29 20:05:12,076 - DEBUG - windows-1251 Russian confidence = 0.01
+2024-07-29 20:05:12,076 - DEBUG - KOI8-R Russian confidence = 0.01
+2024-07-29 20:05:12,076 - DEBUG - ISO-8859-5 Russian confidence = 0.01
+2024-07-29 20:05:12,076 - DEBUG - MacCyrillic Russian confidence = 0.0
+2024-07-29 20:05:12,076 - DEBUG - IBM866 Russian confidence = 0.0
+2024-07-29 20:05:12,076 - DEBUG - IBM855 Russian confidence = 0.01
+2024-07-29 20:05:12,076 - DEBUG - ISO-8859-7 Greek confidence = 0.0
+2024-07-29 20:05:12,076 - DEBUG - windows-1253 Greek confidence = 0.0
+2024-07-29 20:05:12,076 - DEBUG - ISO-8859-5 Bulgairan confidence = 0.0
+2024-07-29 20:05:12,076 - DEBUG - windows-1251 Bulgarian confidence = 0.0
+2024-07-29 20:05:12,076 - DEBUG - TIS-620 Thai confidence = 0.01
+2024-07-29 20:05:12,076 - DEBUG - ISO-8859-9 Turkish confidence = 0.4436916013207128
+2024-07-29 20:05:12,076 - DEBUG - windows-1255 Hebrew confidence = 0.0
+2024-07-29 20:05:12,076 - DEBUG - windows-1255 Hebrew confidence = 0.0
+2024-07-29 20:05:12,076 - DEBUG - windows-1255 Hebrew confidence = 0.0
+2024-07-29 20:05:12,076 - DEBUG - utf-8  confidence = 0.7525
+2024-07-29 20:05:12,076 - DEBUG - SHIFT_JIS not active
+2024-07-29 20:05:12,076 - DEBUG - EUC-JP not active
+2024-07-29 20:05:12,076 - DEBUG - GB2312 not active
+2024-07-29 20:05:12,076 - DEBUG - EUC-KR not active
+2024-07-29 20:05:12,076 - DEBUG - CP949 not active
+2024-07-29 20:05:12,076 - DEBUG - Big5 not active
+2024-07-29 20:05:12,076 - DEBUG - EUC-TW not active
+2024-07-29 20:05:12,076 - DEBUG - PARSE
+2024-07-29 20:05:12,076 - DEBUG - {'id': 'crd_c48a5579b74d4299b4bc48db0776cd36', 'name': "The Sorcerer's Spellbook", 'layout': 'normal', 'released_at': '2023-11-17', 'image_uris': {'digital': {'small': 'https://cards.lorcast.io/card/digital/small/crd_c48a5579b74d4299b4bc48db0776cd36.avif?1709690747', 'normal': 'https://cards.lorcast.io/card/digital/normal/crd_c48a5579b74d4299b4bc48db0776cd36.avif?1709690747', 'large': 'https://cards.lorcast.io/card/digital/large/crd_c48a5579b74d4299b4bc48db0776cd36.avif?1709690747'}}, 'cost': 3, 'inkwell': False, 'ink': 'Amethyst', 'type': ['Item'], 'classifications': None, 'text': 'KNOWLEDGE {E}, 1 {I} — Gain 1 lore.', 'keywords': [], 'move_cost': None, 'strength': None, 'willpower': None, 'lore': None, 'rarity': 'Rare', 'illustrators': ['Julie Vu'], 'collector_number': '68', 'lang': 'en', 'flavor_text': 'Illumineers seek the power of knowledge—but must be\naware of the price.', 'tcgplayer_id': 516340, 'legalities': {'core': 'legal'}, 'set': {'id': 'set_142d2dfb5d4b4b739a1017dc4bb0fcd2', 'code': '2', 'name': 'Rise of the Floodborn'}, 'prices': {'usd': '0.65'}}
+2024-07-29 20:06:21,783 - DEBUG - BEFORE TRY
+2024-07-29 20:06:21,784 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 20:06:22,804 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Maleficent%20-%20Sorceress HTTP/1.1" 200 None
+2024-07-29 20:06:22,806 - DEBUG - Card number
+2024-07-29 20:06:22,806 - DEBUG - 49
+2024-07-29 20:06:22,806 - DEBUG - Set number
+2024-07-29 20:06:22,806 - DEBUG - 1
+2024-07-29 20:06:22,806 - DEBUG - 1
+2024-07-29 20:06:22,806 - DEBUG - 49
+2024-07-29 20:06:22,807 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 20:06:23,226 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/1/49 HTTP/1.1" 200 None
+2024-07-29 20:06:23,229 - DEBUG - <Response [200]>
+2024-07-29 20:06:23,231 - DEBUG - SHIFT_JIS Japanese prober hit error at byte 941
+2024-07-29 20:06:23,231 - DEBUG - EUC-JP Japanese prober hit error at byte 848
+2024-07-29 20:06:23,232 - DEBUG - GB2312 Chinese prober hit error at byte 941
+2024-07-29 20:06:23,233 - DEBUG - EUC-KR Korean prober hit error at byte 848
+2024-07-29 20:06:23,233 - DEBUG - CP949 Korean prober hit error at byte 848
+2024-07-29 20:06:23,234 - DEBUG - Big5 Chinese prober hit error at byte 849
+2024-07-29 20:06:23,234 - DEBUG - EUC-TW Taiwan prober hit error at byte 848
+2024-07-29 20:06:23,236 - DEBUG - utf-8  confidence = 0.7525
+2024-07-29 20:06:23,236 - DEBUG - SHIFT_JIS not active
+2024-07-29 20:06:23,236 - DEBUG - EUC-JP not active
+2024-07-29 20:06:23,236 - DEBUG - GB2312 not active
+2024-07-29 20:06:23,236 - DEBUG - EUC-KR not active
+2024-07-29 20:06:23,236 - DEBUG - CP949 not active
+2024-07-29 20:06:23,236 - DEBUG - Big5 not active
+2024-07-29 20:06:23,236 - DEBUG - EUC-TW not active
+2024-07-29 20:06:23,236 - DEBUG - windows-1251 Russian confidence = 0.01
+2024-07-29 20:06:23,236 - DEBUG - KOI8-R Russian confidence = 0.01
+2024-07-29 20:06:23,236 - DEBUG - ISO-8859-5 Russian confidence = 0.01
+2024-07-29 20:06:23,236 - DEBUG - MacCyrillic Russian confidence = 0.0
+2024-07-29 20:06:23,236 - DEBUG - IBM866 Russian confidence = 0.0
+2024-07-29 20:06:23,236 - DEBUG - IBM855 Russian confidence = 0.01
+2024-07-29 20:06:23,236 - DEBUG - ISO-8859-7 Greek confidence = 0.01
+2024-07-29 20:06:23,236 - DEBUG - windows-1253 Greek confidence = 0.01
+2024-07-29 20:06:23,236 - DEBUG - ISO-8859-5 Bulgairan confidence = 0.01
+2024-07-29 20:06:23,236 - DEBUG - windows-1251 Bulgarian confidence = 0.01
+2024-07-29 20:06:23,236 - DEBUG - TIS-620 Thai confidence = 0.01
+2024-07-29 20:06:23,236 - DEBUG - ISO-8859-9 Turkish confidence = 0.466060877850576
+2024-07-29 20:06:23,236 - DEBUG - windows-1255 Hebrew confidence = 0.0
+2024-07-29 20:06:23,236 - DEBUG - windows-1255 Hebrew confidence = 0.0
+2024-07-29 20:06:23,236 - DEBUG - windows-1255 Hebrew confidence = 0.0
+2024-07-29 20:06:23,236 - DEBUG - utf-8  confidence = 0.7525
+2024-07-29 20:06:23,236 - DEBUG - SHIFT_JIS not active
+2024-07-29 20:06:23,236 - DEBUG - EUC-JP not active
+2024-07-29 20:06:23,236 - DEBUG - GB2312 not active
+2024-07-29 20:06:23,236 - DEBUG - EUC-KR not active
+2024-07-29 20:06:23,236 - DEBUG - CP949 not active
+2024-07-29 20:06:23,236 - DEBUG - Big5 not active
+2024-07-29 20:06:23,236 - DEBUG - EUC-TW not active
+2024-07-29 20:06:23,236 - DEBUG - PARSE
+2024-07-29 20:06:23,237 - DEBUG - {'id': 'crd_ff8bf99d2bd84183bcc4b5d7a18360f0', 'name': 'Maleficent', 'version': 'Sorceress', 'layout': 'normal', 'released_at': '2023-08-18', 'image_uris': {'digital': {'small': 'https://cards.lorcast.io/card/digital/small/crd_ff8bf99d2bd84183bcc4b5d7a18360f0.avif?1709690747', 'normal': 'https://cards.lorcast.io/card/digital/normal/crd_ff8bf99d2bd84183bcc4b5d7a18360f0.avif?1709690747', 'large': 'https://cards.lorcast.io/card/digital/large/crd_ff8bf99d2bd84183bcc4b5d7a18360f0.avif?1709690747'}}, 'cost': 3, 'inkwell': True, 'ink': 'Amethyst', 'type': ['Character'], 'classifications': ['Storyborn', 'Villain', 'Sorcerer'], 'text': 'CAST MY SPELL! When you play this character, you may draw a card.', 'keywords': [], 'move_cost': None, 'strength': 2, 'willpower': 2, 'lore': 1, 'rarity': 'Common', 'illustrators': ['Valerio Buonfantino'], 'collector_number': '49', 'lang': 'en', 'flavor_text': '“You dare challenge me? Fool, my magic is more\npowerful than you could possibly imagine!”', 'tcgplayer_id': 494103, 'legalities': {'core': 'legal'}, 'set': {'id': 'set_7ecb0e0c71af496a9e0110e23824e0a5', 'code': '1', 'name': 'The First Chapter'}, 'prices': {'usd': '0.2'}}
+2024-07-29 20:06:25,182 - DEBUG - BEFORE TRY
+2024-07-29 20:06:25,184 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 20:06:26,172 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=The%20Queen's%20Castle%20-%20Mirror%20Chamber HTTP/1.1" 200 None
+2024-07-29 20:06:26,178 - DEBUG - Card number
+2024-07-29 20:06:26,178 - DEBUG - 67
+2024-07-29 20:06:26,178 - DEBUG - Set number
+2024-07-29 20:06:26,178 - DEBUG - 3
+2024-07-29 20:06:26,178 - DEBUG - 3
+2024-07-29 20:06:26,178 - DEBUG - 67
+2024-07-29 20:06:26,179 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 20:06:26,606 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/3/67 HTTP/1.1" 200 None
+2024-07-29 20:06:26,609 - DEBUG - <Response [200]>
+2024-07-29 20:06:26,613 - DEBUG - EUC-JP Japanese prober hit error at byte 910
+2024-07-29 20:06:26,614 - DEBUG - EUC-KR Korean prober hit error at byte 910
+2024-07-29 20:06:26,615 - DEBUG - CP949 Korean prober hit error at byte 910
+2024-07-29 20:06:26,615 - DEBUG - Big5 Chinese prober hit error at byte 911
+2024-07-29 20:06:26,616 - DEBUG - EUC-TW Taiwan prober hit error at byte 910
+2024-07-29 20:06:26,617 - DEBUG - utf-8  confidence = 0.505
+2024-07-29 20:06:26,617 - DEBUG - SHIFT_JIS Japanese confidence = 0.01
+2024-07-29 20:06:26,617 - DEBUG - EUC-JP not active
+2024-07-29 20:06:26,617 - DEBUG - GB2312 Chinese confidence = 0.01
+2024-07-29 20:06:26,617 - DEBUG - EUC-KR not active
+2024-07-29 20:06:26,617 - DEBUG - CP949 not active
+2024-07-29 20:06:26,617 - DEBUG - Big5 not active
+2024-07-29 20:06:26,617 - DEBUG - EUC-TW not active
+2024-07-29 20:06:26,617 - DEBUG - windows-1251 Russian confidence = 0.01
+2024-07-29 20:06:26,617 - DEBUG - KOI8-R Russian confidence = 0.01
+2024-07-29 20:06:26,617 - DEBUG - ISO-8859-5 Russian confidence = 0.01
+2024-07-29 20:06:26,617 - DEBUG - MacCyrillic Russian confidence = 0.0
+2024-07-29 20:06:26,617 - DEBUG - IBM866 Russian confidence = 0.0
+2024-07-29 20:06:26,617 - DEBUG - IBM855 Russian confidence = 0.01
+2024-07-29 20:06:26,617 - DEBUG - ISO-8859-7 Greek confidence = 0.01
+2024-07-29 20:06:26,617 - DEBUG - windows-1253 Greek confidence = 0.01
+2024-07-29 20:06:26,617 - DEBUG - ISO-8859-5 Bulgairan confidence = 0.01
+2024-07-29 20:06:26,617 - DEBUG - windows-1251 Bulgarian confidence = 0.01
+2024-07-29 20:06:26,617 - DEBUG - TIS-620 Thai confidence = 0.01
+2024-07-29 20:06:26,617 - DEBUG - ISO-8859-9 Turkish confidence = 0.4994352280437644
+2024-07-29 20:06:26,617 - DEBUG - windows-1255 Hebrew confidence = 0.0
+2024-07-29 20:06:26,617 - DEBUG - windows-1255 Hebrew confidence = 0.0
+2024-07-29 20:06:26,617 - DEBUG - windows-1255 Hebrew confidence = 0.0
+2024-07-29 20:06:26,617 - DEBUG - PARSE
+2024-07-29 20:06:26,617 - DEBUG - {'id': 'crd_a4f0a9a928674b2a93d17f7c81eb09d7', 'name': "The Queen's Castle", 'version': 'Mirror Chamber', 'layout': 'landscape', 'released_at': '2024-02-23', 'image_uris': {'digital': {'small': 'https://cards.lorcast.io/card/digital/small/crd_a4f0a9a928674b2a93d17f7c81eb09d7.avif?1709690747', 'normal': 'https://cards.lorcast.io/card/digital/normal/crd_a4f0a9a928674b2a93d17f7c81eb09d7.avif?1709690747', 'large': 'https://cards.lorcast.io/card/digital/large/crd_a4f0a9a928674b2a93d17f7c81eb09d7.avif?1709690747'}}, 'cost': 4, 'inkwell': True, 'ink': 'Amethyst', 'type': ['Location'], 'classifications': None, 'text': 'USING THE MIRROR At the start of your turn, for each character you have here, you may draw a card.', 'keywords': [], 'move_cost': 1, 'strength': None, 'willpower': 7, 'lore': 2, 'rarity': 'Rare', 'illustrators': ['Matthew Oates'], 'collector_number': '67', 'lang': 'en', 'flavor_text': 'Those who visit the mirror can choose their questionâ€”but not the answer.', 'tcgplayer_id': 538680, 'legalities': {'core': 'legal'}, 'set': {'id': 'set_10a1db03fe66417c9912494b94463e8e', 'code': '3', 'name': 'Into the Inklands'}, 'prices': {'usd': '13.52'}}
+2024-07-29 20:06:28,748 - DEBUG - BEFORE TRY
+2024-07-29 20:06:28,749 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 20:06:29,739 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Be%20Prepared HTTP/1.1" 200 None
+2024-07-29 20:06:29,740 - DEBUG - Card number
+2024-07-29 20:06:29,740 - DEBUG - 128
+2024-07-29 20:06:29,740 - DEBUG - Set number
+2024-07-29 20:06:29,740 - DEBUG - 1
+2024-07-29 20:06:29,740 - DEBUG - 1
+2024-07-29 20:06:29,740 - DEBUG - 128
+2024-07-29 20:06:29,741 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 20:06:30,160 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/1/128 HTTP/1.1" 200 None
+2024-07-29 20:06:30,162 - DEBUG - <Response [200]>
+2024-07-29 20:06:30,163 - DEBUG - PARSE
+2024-07-29 20:06:30,163 - DEBUG - {'id': 'crd_a7c6d3aa2de6462f8d205d70a8fcc54f', 'name': 'Be Prepared', 'layout': 'normal', 'released_at': '2023-08-18', 'image_uris': {'digital': {'small': 'https://cards.lorcast.io/card/digital/small/crd_a7c6d3aa2de6462f8d205d70a8fcc54f.avif?1709690747', 'normal': 'https://cards.lorcast.io/card/digital/normal/crd_a7c6d3aa2de6462f8d205d70a8fcc54f.avif?1709690747', 'large': 'https://cards.lorcast.io/card/digital/large/crd_a7c6d3aa2de6462f8d205d70a8fcc54f.avif?1709690747'}}, 'cost': 7, 'inkwell': False, 'ink': 'Ruby', 'type': ['Action', 'Song'], 'classifications': None, 'text': '(A character with cost 7 or more can {E} to sing this song for free.)\nBanish all characters.', 'keywords': [], 'move_cost': None, 'strength': None, 'willpower': None, 'lore': None, 'rarity': 'Rare', 'illustrators': ['Jared Nickerl'], 'collector_number': '128', 'lang': 'en', 'flavor_text': 'Our teeth and ambitions are bared!', 'tcgplayer_id': 506077, 'legalities': {'core': 'legal'}, 'set': {'id': 'set_7ecb0e0c71af496a9e0110e23824e0a5', 'code': '1', 'name': 'The First Chapter'}, 'prices': {'usd': '10.3'}}
+2024-07-29 20:06:52,995 - DEBUG - BEFORE TRY
+2024-07-29 20:06:52,997 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 20:06:54,021 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Merlin%20-%20Rabbit HTTP/1.1" 200 None
+2024-07-29 20:06:54,027 - DEBUG - Card number
+2024-07-29 20:06:54,027 - DEBUG - 52
+2024-07-29 20:06:54,027 - DEBUG - Set number
+2024-07-29 20:06:54,027 - DEBUG - 2
+2024-07-29 20:06:54,027 - DEBUG - 2
+2024-07-29 20:06:54,027 - DEBUG - 52
+2024-07-29 20:06:54,028 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 20:06:54,527 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/2/52 HTTP/1.1" 200 None
+2024-07-29 20:06:54,529 - DEBUG - <Response [200]>
+2024-07-29 20:06:54,529 - DEBUG - PARSE
+2024-07-29 20:06:54,529 - DEBUG - {'id': 'crd_6ebf8ca0c6b848e992e9927bf0d93d2b', 'name': 'Merlin', 'version': 'Rabbit', 'layout': 'normal', 'released_at': '2023-11-17', 'image_uris': {'digital': {'small': 'https://cards.lorcast.io/card/digital/small/crd_6ebf8ca0c6b848e992e9927bf0d93d2b.avif?1709690747', 'normal': 'https://cards.lorcast.io/card/digital/normal/crd_6ebf8ca0c6b848e992e9927bf0d93d2b.avif?1709690747', 'large': 'https://cards.lorcast.io/card/digital/large/crd_6ebf8ca0c6b848e992e9927bf0d93d2b.avif?1709690747'}}, 'cost': 4, 'inkwell': False, 'ink': 'Amethyst', 'type': ['Character'], 'classifications': ['Storyborn', 'Mentor', 'Sorcerer'], 'text': 'HOPPITY HIP! When you play this character and when he leaves play, you may draw a card.', 'keywords': [], 'move_cost': None, 'strength': 2, 'willpower': 3, 'lore': 1, 'rarity': 'Rare', 'illustrators': ['Michaela Martin'], 'collector_number': '52', 'lang': 'en', 'flavor_text': 'It was turning out to be a bad hare day.', 'tcgplayer_id': 520939, 'legalities': {'core': 'legal'}, 'set': {'id': 'set_142d2dfb5d4b4b739a1017dc4bb0fcd2', 'code': '2', 'name': 'Rise of the Floodborn'}, 'prices': {'usd': '2.69'}}
+2024-07-29 20:07:01,143 - DEBUG - BEFORE TRY
+2024-07-29 20:07:01,146 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 20:07:02,157 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Madame%20Medusa%20-%20The%20Boss HTTP/1.1" 200 None
+2024-07-29 20:07:02,165 - DEBUG - Card number
+2024-07-29 20:07:02,165 - DEBUG - 112
+2024-07-29 20:07:02,165 - DEBUG - Set number
+2024-07-29 20:07:02,165 - DEBUG - 3
+2024-07-29 20:07:02,165 - DEBUG - 3
+2024-07-29 20:07:02,165 - DEBUG - 112
+2024-07-29 20:07:02,167 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 20:07:02,541 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/3/112 HTTP/1.1" 200 None
+2024-07-29 20:07:02,542 - DEBUG - <Response [200]>
+2024-07-29 20:07:02,544 - DEBUG - SHIFT_JIS Japanese prober hit error at byte 938
+2024-07-29 20:07:02,545 - DEBUG - EUC-JP Japanese prober hit error at byte 873
+2024-07-29 20:07:02,546 - DEBUG - GB2312 Chinese prober hit error at byte 938
+2024-07-29 20:07:02,546 - DEBUG - EUC-KR Korean prober hit error at byte 873
+2024-07-29 20:07:02,547 - DEBUG - CP949 Korean prober hit error at byte 873
+2024-07-29 20:07:02,547 - DEBUG - Big5 Chinese prober hit error at byte 874
+2024-07-29 20:07:02,548 - DEBUG - EUC-TW Taiwan prober hit error at byte 873
+2024-07-29 20:07:02,549 - DEBUG - utf-8  confidence = 0.7525
+2024-07-29 20:07:02,549 - DEBUG - SHIFT_JIS not active
+2024-07-29 20:07:02,549 - DEBUG - EUC-JP not active
+2024-07-29 20:07:02,549 - DEBUG - GB2312 not active
+2024-07-29 20:07:02,549 - DEBUG - EUC-KR not active
+2024-07-29 20:07:02,549 - DEBUG - CP949 not active
+2024-07-29 20:07:02,549 - DEBUG - Big5 not active
+2024-07-29 20:07:02,549 - DEBUG - EUC-TW not active
+2024-07-29 20:07:02,549 - DEBUG - windows-1251 Russian confidence = 0.01
+2024-07-29 20:07:02,549 - DEBUG - KOI8-R Russian confidence = 0.01
+2024-07-29 20:07:02,549 - DEBUG - ISO-8859-5 Russian confidence = 0.01
+2024-07-29 20:07:02,549 - DEBUG - MacCyrillic Russian confidence = 0.0
+2024-07-29 20:07:02,549 - DEBUG - IBM866 Russian confidence = 0.0
+2024-07-29 20:07:02,549 - DEBUG - IBM855 Russian confidence = 0.01
+2024-07-29 20:07:02,550 - DEBUG - ISO-8859-7 Greek confidence = 0.01
+2024-07-29 20:07:02,550 - DEBUG - windows-1253 Greek confidence = 0.01
+2024-07-29 20:07:02,550 - DEBUG - ISO-8859-5 Bulgairan confidence = 0.01
+2024-07-29 20:07:02,550 - DEBUG - windows-1251 Bulgarian confidence = 0.01
+2024-07-29 20:07:02,550 - DEBUG - TIS-620 Thai confidence = 0.01
+2024-07-29 20:07:02,550 - DEBUG - ISO-8859-9 Turkish confidence = 0.4981344659865878
+2024-07-29 20:07:02,550 - DEBUG - windows-1255 Hebrew confidence = 0.0
+2024-07-29 20:07:02,550 - DEBUG - windows-1255 Hebrew confidence = 0.0
+2024-07-29 20:07:02,550 - DEBUG - windows-1255 Hebrew confidence = 0.0
+2024-07-29 20:07:02,550 - DEBUG - utf-8  confidence = 0.7525
+2024-07-29 20:07:02,550 - DEBUG - SHIFT_JIS not active
+2024-07-29 20:07:02,550 - DEBUG - EUC-JP not active
+2024-07-29 20:07:02,550 - DEBUG - GB2312 not active
+2024-07-29 20:07:02,550 - DEBUG - EUC-KR not active
+2024-07-29 20:07:02,550 - DEBUG - CP949 not active
+2024-07-29 20:07:02,550 - DEBUG - Big5 not active
+2024-07-29 20:07:02,550 - DEBUG - EUC-TW not active
+2024-07-29 20:07:02,550 - DEBUG - PARSE
+2024-07-29 20:07:02,550 - DEBUG - {'id': 'crd_62c656f20cba4c43a1ed1f7ebc2ca720', 'name': 'Madame Medusa', 'version': 'The Boss', 'layout': 'normal', 'released_at': '2024-02-23', 'image_uris': {'digital': {'small': 'https://cards.lorcast.io/card/digital/small/crd_62c656f20cba4c43a1ed1f7ebc2ca720.avif?1709690747', 'normal': 'https://cards.lorcast.io/card/digital/normal/crd_62c656f20cba4c43a1ed1f7ebc2ca720.avif?1709690747', 'large': 'https://cards.lorcast.io/card/digital/large/crd_62c656f20cba4c43a1ed1f7ebc2ca720.avif?1709690747'}}, 'cost': 6, 'inkwell': False, 'ink': 'Ruby', 'type': ['Character'], 'classifications': ['Storyborn', 'Villain'], 'text': 'THAT TERRIBLE WOMAN When you play this character, banish chosen opposing character with 3 {S} or less.', 'keywords': [], 'move_cost': None, 'strength': 4, 'willpower': 4, 'lore': 1, 'rarity': 'Super_rare', 'illustrators': ['Jackie Droujko'], 'collector_number': '112', 'lang': 'en', 'flavor_text': '“Finding lore will be as easy as taking candy from\nchildren.”', 'tcgplayer_id': 539089, 'legalities': {'core': 'legal'}, 'set': {'id': 'set_10a1db03fe66417c9912494b94463e8e', 'code': '3', 'name': 'Into the Inklands'}, 'prices': {'usd': '2.7'}}
+2024-07-29 20:07:35,306 - DEBUG - 444
+2024-07-29 20:07:35,306 - DEBUG - 4444
+2024-07-29 20:07:35,310 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 20:07:35,800 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/444/4444 HTTP/1.1" 404 None
+2024-07-29 20:07:35,805 - DEBUG - <Response [404]>
+2024-07-29 20:07:35,806 - DEBUG - PARSE
+2024-07-29 20:07:35,806 - DEBUG - {'error': 'Card 444/4444 not found'}
+2024-07-29 20:07:35,806 - DEBUG - No card Single
+2024-07-29 20:07:45,441 - DEBUG - 5
+2024-07-29 20:07:45,441 - DEBUG - 207
+2024-07-29 20:07:45,444 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 20:07:45,617 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/207 HTTP/1.1" 404 None
+2024-07-29 20:07:45,618 - DEBUG - <Response [404]>
+2024-07-29 20:07:45,618 - DEBUG - PARSE
+2024-07-29 20:07:45,618 - DEBUG - {'error': 'Card 5/207 not found'}
+2024-07-29 20:07:45,618 - DEBUG - No card Single
+2024-07-29 20:07:50,943 - DEBUG - BEFORE TRY
+2024-07-29 20:07:50,945 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 20:07:51,955 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Maleficent%20-%20Sorceress HTTP/1.1" 200 None
+2024-07-29 20:07:51,960 - DEBUG - Card number
+2024-07-29 20:07:51,960 - DEBUG - 49
+2024-07-29 20:07:51,960 - DEBUG - Set number
+2024-07-29 20:07:51,960 - DEBUG - 1
+2024-07-29 20:07:51,960 - DEBUG - 1
+2024-07-29 20:07:51,960 - DEBUG - 49
+2024-07-29 20:07:51,961 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 20:07:52,412 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/1/49 HTTP/1.1" 200 None
+2024-07-29 20:07:52,413 - DEBUG - <Response [200]>
+2024-07-29 20:07:52,414 - DEBUG - SHIFT_JIS Japanese prober hit error at byte 941
+2024-07-29 20:07:52,415 - DEBUG - EUC-JP Japanese prober hit error at byte 848
+2024-07-29 20:07:52,416 - DEBUG - GB2312 Chinese prober hit error at byte 941
+2024-07-29 20:07:52,417 - DEBUG - EUC-KR Korean prober hit error at byte 848
+2024-07-29 20:07:52,417 - DEBUG - CP949 Korean prober hit error at byte 848
+2024-07-29 20:07:52,418 - DEBUG - Big5 Chinese prober hit error at byte 849
+2024-07-29 20:07:52,418 - DEBUG - EUC-TW Taiwan prober hit error at byte 848
+2024-07-29 20:07:52,419 - DEBUG - utf-8  confidence = 0.7525
+2024-07-29 20:07:52,420 - DEBUG - SHIFT_JIS not active
+2024-07-29 20:07:52,420 - DEBUG - EUC-JP not active
+2024-07-29 20:07:52,420 - DEBUG - GB2312 not active
+2024-07-29 20:07:52,420 - DEBUG - EUC-KR not active
+2024-07-29 20:07:52,420 - DEBUG - CP949 not active
+2024-07-29 20:07:52,420 - DEBUG - Big5 not active
+2024-07-29 20:07:52,420 - DEBUG - EUC-TW not active
+2024-07-29 20:07:52,420 - DEBUG - windows-1251 Russian confidence = 0.01
+2024-07-29 20:07:52,420 - DEBUG - KOI8-R Russian confidence = 0.01
+2024-07-29 20:07:52,420 - DEBUG - ISO-8859-5 Russian confidence = 0.01
+2024-07-29 20:07:52,420 - DEBUG - MacCyrillic Russian confidence = 0.0
+2024-07-29 20:07:52,420 - DEBUG - IBM866 Russian confidence = 0.0
+2024-07-29 20:07:52,420 - DEBUG - IBM855 Russian confidence = 0.01
+2024-07-29 20:07:52,420 - DEBUG - ISO-8859-7 Greek confidence = 0.01
+2024-07-29 20:07:52,420 - DEBUG - windows-1253 Greek confidence = 0.01
+2024-07-29 20:07:52,420 - DEBUG - ISO-8859-5 Bulgairan confidence = 0.01
+2024-07-29 20:07:52,420 - DEBUG - windows-1251 Bulgarian confidence = 0.01
+2024-07-29 20:07:52,420 - DEBUG - TIS-620 Thai confidence = 0.01
+2024-07-29 20:07:52,420 - DEBUG - ISO-8859-9 Turkish confidence = 0.466060877850576
+2024-07-29 20:07:52,420 - DEBUG - windows-1255 Hebrew confidence = 0.0
+2024-07-29 20:07:52,420 - DEBUG - windows-1255 Hebrew confidence = 0.0
+2024-07-29 20:07:52,420 - DEBUG - windows-1255 Hebrew confidence = 0.0
+2024-07-29 20:07:52,420 - DEBUG - utf-8  confidence = 0.7525
+2024-07-29 20:07:52,420 - DEBUG - SHIFT_JIS not active
+2024-07-29 20:07:52,420 - DEBUG - EUC-JP not active
+2024-07-29 20:07:52,420 - DEBUG - GB2312 not active
+2024-07-29 20:07:52,420 - DEBUG - EUC-KR not active
+2024-07-29 20:07:52,420 - DEBUG - CP949 not active
+2024-07-29 20:07:52,420 - DEBUG - Big5 not active
+2024-07-29 20:07:52,420 - DEBUG - EUC-TW not active
+2024-07-29 20:07:52,420 - DEBUG - PARSE
+2024-07-29 20:07:52,420 - DEBUG - {'id': 'crd_ff8bf99d2bd84183bcc4b5d7a18360f0', 'name': 'Maleficent', 'version': 'Sorceress', 'layout': 'normal', 'released_at': '2023-08-18', 'image_uris': {'digital': {'small': 'https://cards.lorcast.io/card/digital/small/crd_ff8bf99d2bd84183bcc4b5d7a18360f0.avif?1709690747', 'normal': 'https://cards.lorcast.io/card/digital/normal/crd_ff8bf99d2bd84183bcc4b5d7a18360f0.avif?1709690747', 'large': 'https://cards.lorcast.io/card/digital/large/crd_ff8bf99d2bd84183bcc4b5d7a18360f0.avif?1709690747'}}, 'cost': 3, 'inkwell': True, 'ink': 'Amethyst', 'type': ['Character'], 'classifications': ['Storyborn', 'Villain', 'Sorcerer'], 'text': 'CAST MY SPELL! When you play this character, you may draw a card.', 'keywords': [], 'move_cost': None, 'strength': 2, 'willpower': 2, 'lore': 1, 'rarity': 'Common', 'illustrators': ['Valerio Buonfantino'], 'collector_number': '49', 'lang': 'en', 'flavor_text': '“You dare challenge me? Fool, my magic is more\npowerful than you could possibly imagine!”', 'tcgplayer_id': 494103, 'legalities': {'core': 'legal'}, 'set': {'id': 'set_7ecb0e0c71af496a9e0110e23824e0a5', 'code': '1', 'name': 'The First Chapter'}, 'prices': {'usd': '0.2'}}
+2024-07-29 20:07:56,277 - DEBUG - 1
+2024-07-29 20:07:56,277 - DEBUG - 207
+2024-07-29 20:07:56,279 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 20:07:56,479 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/1/207 HTTP/1.1" 200 None
+2024-07-29 20:07:56,481 - DEBUG - <Response [200]>
+2024-07-29 20:07:56,481 - DEBUG - PARSE
+2024-07-29 20:07:56,481 - DEBUG - {'id': 'crd_cbc18e77d7ec4d50bf19650a9a559686', 'name': 'Elsa', 'version': 'Spirit of Winter', 'layout': 'normal', 'released_at': '2023-08-18', 'image_uris': {'digital': {'small': 'https://cards.lorcast.io/card/digital/small/crd_cbc18e77d7ec4d50bf19650a9a559686.avif?1709690747', 'normal': 'https://cards.lorcast.io/card/digital/normal/crd_cbc18e77d7ec4d50bf19650a9a559686.avif?1709690747', 'large': 'https://cards.lorcast.io/card/digital/large/crd_cbc18e77d7ec4d50bf19650a9a559686.avif?1709690747'}}, 'cost': 8, 'inkwell': False, 'ink': 'Amethyst', 'type': ['Character'], 'classifications': ['Floodborn', 'Hero', 'Queen', 'Sorcerer'], 'text': "Shift 6 (You may pay 6 {I} to play this on top of one of your characters named Elsa.)\nDEEP FREEZE When you play this character, exert up to 2 chosen characters. They can't ready at the start of their next turn.", 'keywords': ['Shift'], 'move_cost': None, 'strength': 4, 'willpower': 6, 'lore': 3, 'rarity': 'Enchanted', 'illustrators': ['Matthew Robert Davies'], 'collector_number': '207', 'lang': 'en', 'flavor_text': None, 'tcgplayer_id': 510153, 'legalities': {'core': 'legal'}, 'set': {'id': 'set_7ecb0e0c71af496a9e0110e23824e0a5', 'code': '1', 'name': 'The First Chapter'}, 'prices': {'usd_foil': '954.6'}}
+2024-07-29 20:08:26,717 - DEBUG - BEFORE TRY
+2024-07-29 20:08:26,718 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 20:08:27,707 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Merlin%20-%20Crab HTTP/1.1" 200 None
+2024-07-29 20:08:27,714 - DEBUG - Card number
+2024-07-29 20:08:27,714 - DEBUG - 50
+2024-07-29 20:08:27,714 - DEBUG - Set number
+2024-07-29 20:08:27,714 - DEBUG - 2
+2024-07-29 20:08:27,714 - DEBUG - 2
+2024-07-29 20:08:27,714 - DEBUG - 50
+2024-07-29 20:08:27,716 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 20:08:28,231 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/2/50 HTTP/1.1" 200 None
+2024-07-29 20:08:28,234 - DEBUG - <Response [200]>
+2024-07-29 20:08:28,234 - DEBUG - PARSE
+2024-07-29 20:08:28,234 - DEBUG - {'id': 'crd_ce53812441ff4a67bd0b987da44126c8', 'name': 'Merlin', 'version': 'Crab', 'layout': 'normal', 'released_at': '2023-11-17', 'image_uris': {'digital': {'small': 'https://cards.lorcast.io/card/digital/small/crd_ce53812441ff4a67bd0b987da44126c8.avif?1709690747', 'normal': 'https://cards.lorcast.io/card/digital/normal/crd_ce53812441ff4a67bd0b987da44126c8.avif?1709690747', 'large': 'https://cards.lorcast.io/card/digital/large/crd_ce53812441ff4a67bd0b987da44126c8.avif?1709690747'}}, 'cost': 3, 'inkwell': True, 'ink': 'Amethyst', 'type': ['Character'], 'classifications': ['Storyborn', 'Mentor', 'Sorcerer'], 'text': 'READY OR NOT! When you play this character and when he leaves play, chosen character gains Challenger +3 this turn. (They get +3 {S} while challenging.)', 'keywords': [], 'move_cost': None, 'strength': 3, 'willpower': 3, 'lore': 1, 'rarity': 'Common', 'illustrators': ['Valentina Graziuso'], 'collector_number': '50', 'lang': 'en', 'flavor_text': "He'll be out of this in a snap!", 'tcgplayer_id': 522652, 'legalities': {'core': 'legal'}, 'set': {'id': 'set_142d2dfb5d4b4b739a1017dc4bb0fcd2', 'code': '2', 'name': 'Rise of the Floodborn'}, 'prices': {'usd': '0.07'}}
+2024-07-29 20:08:30,779 - DEBUG - BEFORE TRY
+2024-07-29 20:08:30,779 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 20:08:31,777 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Maui%20-%20Hero%20to%20All HTTP/1.1" 200 None
+2024-07-29 20:08:31,778 - DEBUG - Card number
+2024-07-29 20:08:31,778 - DEBUG - 114
+2024-07-29 20:08:31,778 - DEBUG - Set number
+2024-07-29 20:08:31,778 - DEBUG - 1
+2024-07-29 20:08:31,778 - DEBUG - 1
+2024-07-29 20:08:31,779 - DEBUG - 114
+2024-07-29 20:08:31,779 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 20:08:32,131 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/1/114 HTTP/1.1" 200 None
+2024-07-29 20:08:32,137 - DEBUG - <Response [200]>
+2024-07-29 20:08:32,141 - DEBUG - EUC-JP Japanese prober hit error at byte 927
+2024-07-29 20:08:32,141 - DEBUG - GB2312 Chinese prober hit error at byte 989
+2024-07-29 20:08:32,142 - DEBUG - EUC-KR Korean prober hit error at byte 927
+2024-07-29 20:08:32,143 - DEBUG - CP949 Korean prober hit error at byte 927
+2024-07-29 20:08:32,145 - DEBUG - Big5 Chinese prober hit error at byte 928
+2024-07-29 20:08:32,146 - DEBUG - EUC-TW Taiwan prober hit error at byte 927
+2024-07-29 20:08:32,148 - DEBUG - utf-8  confidence = 0.938125
+2024-07-29 20:08:32,148 - DEBUG - SHIFT_JIS Japanese confidence = 0.01
+2024-07-29 20:08:32,148 - DEBUG - EUC-JP not active
+2024-07-29 20:08:32,148 - DEBUG - GB2312 not active
+2024-07-29 20:08:32,148 - DEBUG - EUC-KR not active
+2024-07-29 20:08:32,148 - DEBUG - CP949 not active
+2024-07-29 20:08:32,148 - DEBUG - Big5 not active
+2024-07-29 20:08:32,148 - DEBUG - EUC-TW not active
+2024-07-29 20:08:32,148 - DEBUG - windows-1251 Russian confidence = 0.01
+2024-07-29 20:08:32,148 - DEBUG - KOI8-R Russian confidence = 0.01
+2024-07-29 20:08:32,149 - DEBUG - ISO-8859-5 Russian confidence = 0.01
+2024-07-29 20:08:32,149 - DEBUG - MacCyrillic Russian confidence = 0.0
+2024-07-29 20:08:32,149 - DEBUG - IBM866 Russian confidence = 0.0
+2024-07-29 20:08:32,149 - DEBUG - IBM855 Russian confidence = 0.01
+2024-07-29 20:08:32,149 - DEBUG - ISO-8859-7 Greek confidence = 0.01
+2024-07-29 20:08:32,149 - DEBUG - windows-1253 Greek confidence = 0.01
+2024-07-29 20:08:32,149 - DEBUG - ISO-8859-5 Bulgairan confidence = 0.01
+2024-07-29 20:08:32,149 - DEBUG - windows-1251 Bulgarian confidence = 0.01
+2024-07-29 20:08:32,149 - DEBUG - TIS-620 Thai confidence = 0.01
+2024-07-29 20:08:32,149 - DEBUG - ISO-8859-9 Turkish confidence = 0.5068375709760227
+2024-07-29 20:08:32,149 - DEBUG - windows-1255 Hebrew confidence = 0.0
+2024-07-29 20:08:32,149 - DEBUG - windows-1255 Hebrew confidence = 0.0
+2024-07-29 20:08:32,149 - DEBUG - windows-1255 Hebrew confidence = 0.0
+2024-07-29 20:08:32,149 - DEBUG - utf-8  confidence = 0.938125
+2024-07-29 20:08:32,149 - DEBUG - SHIFT_JIS Japanese confidence = 0.01
+2024-07-29 20:08:32,149 - DEBUG - EUC-JP not active
+2024-07-29 20:08:32,149 - DEBUG - GB2312 not active
+2024-07-29 20:08:32,149 - DEBUG - EUC-KR not active
+2024-07-29 20:08:32,149 - DEBUG - CP949 not active
+2024-07-29 20:08:32,149 - DEBUG - Big5 not active
+2024-07-29 20:08:32,149 - DEBUG - EUC-TW not active
+2024-07-29 20:08:32,149 - DEBUG - PARSE
+2024-07-29 20:08:32,149 - DEBUG - {'id': 'crd_407bb2a4ff5c4d46b0e4e76cbc2be949', 'name': 'Maui', 'version': 'Hero to All', 'layout': 'normal', 'released_at': '2023-08-18', 'image_uris': {'digital': {'small': 'https://cards.lorcast.io/card/digital/small/crd_407bb2a4ff5c4d46b0e4e76cbc2be949.avif?1709690747', 'normal': 'https://cards.lorcast.io/card/digital/normal/crd_407bb2a4ff5c4d46b0e4e76cbc2be949.avif?1709690747', 'large': 'https://cards.lorcast.io/card/digital/large/crd_407bb2a4ff5c4d46b0e4e76cbc2be949.avif?1709690747'}}, 'cost': 5, 'inkwell': True, 'ink': 'Ruby', 'type': ['Character'], 'classifications': ['Storyborn', 'Hero', 'Deity'], 'text': "Rush (This character can challenge the turn they're played.)\nReckless (This character can't quest and must challenge each turn if able.)", 'keywords': ['Reckless', 'Rush'], 'move_cost': None, 'strength': 6, 'willpower': 5, 'lore': 0, 'rarity': 'Rare', 'illustrators': ['Pirel / Marco Giorgianni'], 'collector_number': '114', 'lang': 'en', 'flavor_text': '“What I believe you were trying to say is ‘Thank you.’”', 'tcgplayer_id': 508784, 'legalities': {'core': 'legal'}, 'set': {'id': 'set_7ecb0e0c71af496a9e0110e23824e0a5', 'code': '1', 'name': 'The First Chapter'}, 'prices': {'usd': '14.49'}}
+2024-07-29 20:08:34,010 - DEBUG - BEFORE TRY
+2024-07-29 20:08:34,013 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 20:08:35,027 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Maleficent%20-%20Sorceress HTTP/1.1" 200 None
+2024-07-29 20:08:35,028 - DEBUG - Card number
+2024-07-29 20:08:35,028 - DEBUG - 49
+2024-07-29 20:08:35,028 - DEBUG - Set number
+2024-07-29 20:08:35,028 - DEBUG - 1
+2024-07-29 20:08:35,028 - DEBUG - 1
+2024-07-29 20:08:35,028 - DEBUG - 49
+2024-07-29 20:08:35,029 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 20:08:35,444 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/1/49 HTTP/1.1" 200 None
+2024-07-29 20:08:35,445 - DEBUG - <Response [200]>
+2024-07-29 20:08:35,448 - DEBUG - SHIFT_JIS Japanese prober hit error at byte 941
+2024-07-29 20:08:35,449 - DEBUG - EUC-JP Japanese prober hit error at byte 848
+2024-07-29 20:08:35,450 - DEBUG - GB2312 Chinese prober hit error at byte 941
+2024-07-29 20:08:35,450 - DEBUG - EUC-KR Korean prober hit error at byte 848
+2024-07-29 20:08:35,450 - DEBUG - CP949 Korean prober hit error at byte 848
+2024-07-29 20:08:35,451 - DEBUG - Big5 Chinese prober hit error at byte 849
+2024-07-29 20:08:35,451 - DEBUG - EUC-TW Taiwan prober hit error at byte 848
+2024-07-29 20:08:35,453 - DEBUG - utf-8  confidence = 0.7525
+2024-07-29 20:08:35,453 - DEBUG - SHIFT_JIS not active
+2024-07-29 20:08:35,453 - DEBUG - EUC-JP not active
+2024-07-29 20:08:35,453 - DEBUG - GB2312 not active
+2024-07-29 20:08:35,453 - DEBUG - EUC-KR not active
+2024-07-29 20:08:35,453 - DEBUG - CP949 not active
+2024-07-29 20:08:35,453 - DEBUG - Big5 not active
+2024-07-29 20:08:35,453 - DEBUG - EUC-TW not active
+2024-07-29 20:08:35,453 - DEBUG - windows-1251 Russian confidence = 0.01
+2024-07-29 20:08:35,453 - DEBUG - KOI8-R Russian confidence = 0.01
+2024-07-29 20:08:35,453 - DEBUG - ISO-8859-5 Russian confidence = 0.01
+2024-07-29 20:08:35,453 - DEBUG - MacCyrillic Russian confidence = 0.0
+2024-07-29 20:08:35,453 - DEBUG - IBM866 Russian confidence = 0.0
+2024-07-29 20:08:35,453 - DEBUG - IBM855 Russian confidence = 0.01
+2024-07-29 20:08:35,453 - DEBUG - ISO-8859-7 Greek confidence = 0.01
+2024-07-29 20:08:35,453 - DEBUG - windows-1253 Greek confidence = 0.01
+2024-07-29 20:08:35,453 - DEBUG - ISO-8859-5 Bulgairan confidence = 0.01
+2024-07-29 20:08:35,453 - DEBUG - windows-1251 Bulgarian confidence = 0.01
+2024-07-29 20:08:35,453 - DEBUG - TIS-620 Thai confidence = 0.01
+2024-07-29 20:08:35,453 - DEBUG - ISO-8859-9 Turkish confidence = 0.466060877850576
+2024-07-29 20:08:35,453 - DEBUG - windows-1255 Hebrew confidence = 0.0
+2024-07-29 20:08:35,453 - DEBUG - windows-1255 Hebrew confidence = 0.0
+2024-07-29 20:08:35,453 - DEBUG - windows-1255 Hebrew confidence = 0.0
+2024-07-29 20:08:35,453 - DEBUG - utf-8  confidence = 0.7525
+2024-07-29 20:08:35,453 - DEBUG - SHIFT_JIS not active
+2024-07-29 20:08:35,453 - DEBUG - EUC-JP not active
+2024-07-29 20:08:35,453 - DEBUG - GB2312 not active
+2024-07-29 20:08:35,453 - DEBUG - EUC-KR not active
+2024-07-29 20:08:35,453 - DEBUG - CP949 not active
+2024-07-29 20:08:35,453 - DEBUG - Big5 not active
+2024-07-29 20:08:35,453 - DEBUG - EUC-TW not active
+2024-07-29 20:08:35,453 - DEBUG - PARSE
+2024-07-29 20:08:35,453 - DEBUG - {'id': 'crd_ff8bf99d2bd84183bcc4b5d7a18360f0', 'name': 'Maleficent', 'version': 'Sorceress', 'layout': 'normal', 'released_at': '2023-08-18', 'image_uris': {'digital': {'small': 'https://cards.lorcast.io/card/digital/small/crd_ff8bf99d2bd84183bcc4b5d7a18360f0.avif?1709690747', 'normal': 'https://cards.lorcast.io/card/digital/normal/crd_ff8bf99d2bd84183bcc4b5d7a18360f0.avif?1709690747', 'large': 'https://cards.lorcast.io/card/digital/large/crd_ff8bf99d2bd84183bcc4b5d7a18360f0.avif?1709690747'}}, 'cost': 3, 'inkwell': True, 'ink': 'Amethyst', 'type': ['Character'], 'classifications': ['Storyborn', 'Villain', 'Sorcerer'], 'text': 'CAST MY SPELL! When you play this character, you may draw a card.', 'keywords': [], 'move_cost': None, 'strength': 2, 'willpower': 2, 'lore': 1, 'rarity': 'Common', 'illustrators': ['Valerio Buonfantino'], 'collector_number': '49', 'lang': 'en', 'flavor_text': '“You dare challenge me? Fool, my magic is more\npowerful than you could possibly imagine!”', 'tcgplayer_id': 494103, 'legalities': {'core': 'legal'}, 'set': {'id': 'set_7ecb0e0c71af496a9e0110e23824e0a5', 'code': '1', 'name': 'The First Chapter'}, 'prices': {'usd': '0.2'}}
+2024-07-29 20:08:37,834 - DEBUG - BEFORE TRY
+2024-07-29 20:08:37,837 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 20:08:38,816 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Be%20Prepared HTTP/1.1" 200 None
+2024-07-29 20:08:38,821 - DEBUG - Card number
+2024-07-29 20:08:38,822 - DEBUG - 128
+2024-07-29 20:08:38,822 - DEBUG - Set number
+2024-07-29 20:08:38,822 - DEBUG - 1
+2024-07-29 20:08:38,822 - DEBUG - 1
+2024-07-29 20:08:38,822 - DEBUG - 128
+2024-07-29 20:08:38,825 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 20:08:39,299 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/1/128 HTTP/1.1" 200 None
+2024-07-29 20:08:39,300 - DEBUG - <Response [200]>
+2024-07-29 20:08:39,300 - DEBUG - PARSE
+2024-07-29 20:08:39,300 - DEBUG - {'id': 'crd_a7c6d3aa2de6462f8d205d70a8fcc54f', 'name': 'Be Prepared', 'layout': 'normal', 'released_at': '2023-08-18', 'image_uris': {'digital': {'small': 'https://cards.lorcast.io/card/digital/small/crd_a7c6d3aa2de6462f8d205d70a8fcc54f.avif?1709690747', 'normal': 'https://cards.lorcast.io/card/digital/normal/crd_a7c6d3aa2de6462f8d205d70a8fcc54f.avif?1709690747', 'large': 'https://cards.lorcast.io/card/digital/large/crd_a7c6d3aa2de6462f8d205d70a8fcc54f.avif?1709690747'}}, 'cost': 7, 'inkwell': False, 'ink': 'Ruby', 'type': ['Action', 'Song'], 'classifications': None, 'text': '(A character with cost 7 or more can {E} to sing this song for free.)\nBanish all characters.', 'keywords': [], 'move_cost': None, 'strength': None, 'willpower': None, 'lore': None, 'rarity': 'Rare', 'illustrators': ['Jared Nickerl'], 'collector_number': '128', 'lang': 'en', 'flavor_text': 'Our teeth and ambitions are bared!', 'tcgplayer_id': 506077, 'legalities': {'core': 'legal'}, 'set': {'id': 'set_7ecb0e0c71af496a9e0110e23824e0a5', 'code': '1', 'name': 'The First Chapter'}, 'prices': {'usd': '10.3'}}
+2024-07-29 20:12:11,245 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 20:12:13,278 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Chernabog's%20Followers%20-%20Creatures%20of%20Evil HTTP/1.1" 200 None
+2024-07-29 20:12:13,280 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 20:12:13,735 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/3/36 HTTP/1.1" 200 None
+2024-07-29 20:12:16,238 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 20:12:17,264 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Merlin%20-%20Goat HTTP/1.1" 200 None
+2024-07-29 20:12:17,266 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 20:12:17,736 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/2/51 HTTP/1.1" 200 None
+2024-07-29 20:12:20,164 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 20:12:21,166 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Merlin%20-%20Crab HTTP/1.1" 200 None
+2024-07-29 20:12:21,171 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 20:12:21,567 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/2/50 HTTP/1.1" 200 None
+2024-07-29 20:16:00,789 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 20:16:02,912 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Merlin%20-%20Crab HTTP/1.1" 200 None
+2024-07-29 20:16:02,918 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 20:16:03,378 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/2/50 HTTP/1.1" 200 None
+2024-07-29 20:16:07,085 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 20:16:08,108 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Be%20Prepared HTTP/1.1" 200 None
+2024-07-29 20:16:08,116 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 20:16:08,538 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/1/128 HTTP/1.1" 200 None
+2024-07-29 20:16:11,434 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 20:16:12,438 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=The%20Sorcerer's%20Spellbook HTTP/1.1" 200 None
+2024-07-29 20:16:12,444 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 20:16:12,862 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/2/68 HTTP/1.1" 200 None
+2024-07-29 20:26:12,097 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 20:26:14,175 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Lucky%20Dime HTTP/1.1" 200 None
+2024-07-29 20:26:14,177 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 20:26:14,617 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/3/165 HTTP/1.1" 200 None
+2024-07-29 20:26:17,267 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 20:26:18,315 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Friends%20on%20the%20Other%20Side HTTP/1.1" 200 None
+2024-07-29 20:26:18,319 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 20:26:18,741 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/1/64 HTTP/1.1" 200 None
+2024-07-29 20:26:20,806 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 20:26:21,820 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=McDuck%20Manor%20-%20Scrooge's%20Mansion HTTP/1.1" 200 None
+2024-07-29 20:26:21,825 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 20:26:22,242 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/3/169 HTTP/1.1" 200 None
+2024-07-29 20:26:24,497 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 20:26:25,518 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Maui%20-%20Hero%20to%20All HTTP/1.1" 200 None
+2024-07-29 20:26:25,521 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 20:26:25,931 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/1/114 HTTP/1.1" 200 None
+2024-07-29 20:26:25,935 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 20:26:26,923 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Merlin%20-%20Rabbit HTTP/1.1" 200 None
+2024-07-29 20:26:26,930 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 20:26:27,262 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/2/52 HTTP/1.1" 200 None
+2024-07-29 21:58:29,174 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 21:58:30,777 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/1/204 HTTP/1.1" 200 None
+2024-07-29 21:58:38,540 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 21:58:39,045 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/1/205 HTTP/1.1" 200 None
+2024-07-29 22:04:56,338 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 22:04:58,505 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Gramma%20Tala%20-%20Keeper%20of%20Ancient%20Stories HTTP/1.1" 200 None
+2024-07-29 22:04:58,515 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 22:04:59,126 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/3/142 HTTP/1.1" 200 None
+2024-07-29 22:05:01,787 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 22:05:02,820 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=The%20Queen's%20Castle%20-%20Mirror%20Chamber HTTP/1.1" 200 None
+2024-07-29 22:05:02,829 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 22:05:03,185 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/3/67 HTTP/1.1" 200 None
+2024-07-29 22:05:05,467 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 22:05:06,508 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Fishbone%20Quill HTTP/1.1" 200 None
+2024-07-29 22:05:06,515 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 22:05:06,861 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/1/168 HTTP/1.1" 200 None
+2024-07-29 22:05:08,869 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 22:05:09,930 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Develop%20Your%20Brain HTTP/1.1" 200 None
+2024-07-29 22:05:09,933 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 22:05:10,112 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/1/161 HTTP/1.1" 200 None
+2024-07-29 23:23:43,334 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 23:23:45,493 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=One%20Jump%20Ahead HTTP/1.1" 200 None
+2024-07-29 23:23:45,500 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 23:23:45,860 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/1/164 HTTP/1.1" 200 None
+2024-07-29 23:23:47,708 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 23:23:48,705 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Merlin%20-%20Goat HTTP/1.1" 200 None
+2024-07-29 23:23:48,707 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 23:23:49,047 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/2/51 HTTP/1.1" 200 None
+2024-07-29 23:23:51,039 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 23:23:52,095 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Vault%20Door HTTP/1.1" 200 None
+2024-07-29 23:23:52,101 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 23:23:52,434 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/3/167 HTTP/1.1" 200 None
+2024-07-29 23:23:54,684 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 23:23:55,680 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Sisu%20-%20Emboldened%20Warrior HTTP/1.1" 200 None
+2024-07-29 23:23:55,682 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 23:23:56,010 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/4/124 HTTP/1.1" 200 None
+2024-07-29 23:23:58,801 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 23:23:59,794 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Madame%20Medusa%20-%20The%20Boss HTTP/1.1" 200 None
+2024-07-29 23:23:59,795 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 23:24:00,186 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/3/112 HTTP/1.1" 200 None
+2024-07-29 23:24:03,680 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 23:24:04,703 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Friends%20on%20the%20Other%20Side HTTP/1.1" 200 None
+2024-07-29 23:24:04,705 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 23:24:04,858 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/1/64 HTTP/1.1" 200 None
+2024-07-29 23:24:07,761 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 23:24:08,736 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Be%20King%20Undisputed HTTP/1.1" 200 None
+2024-07-29 23:24:08,738 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 23:24:09,135 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/4/129 HTTP/1.1" 200 None
+2024-07-29 23:24:12,949 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 23:24:14,088 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=McDuck%20Manor%20-%20Scrooge's%20Mansion HTTP/1.1" 200 None
+2024-07-29 23:24:14,092 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 23:24:14,424 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/3/169 HTTP/1.1" 200 None
+2024-07-29 23:24:15,891 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 23:24:16,881 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=The%20Queen's%20Castle%20-%20Mirror%20Chamber HTTP/1.1" 200 None
+2024-07-29 23:24:16,883 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 23:24:17,281 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/3/67 HTTP/1.1" 200 None
+2024-07-29 23:31:14,963 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 23:31:15,962 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Hades%20-%20Infernal%20Schemer HTTP/1.1" 200 None
+2024-07-29 23:31:15,965 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 23:31:16,326 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/1/147 HTTP/1.1" 200 None
+2024-07-29 23:31:19,107 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 23:31:20,160 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=The%20Queen's%20Castle%20-%20Mirror%20Chamber HTTP/1.1" 200 None
+2024-07-29 23:31:20,162 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 23:31:20,522 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/3/67 HTTP/1.1" 200 None
+2024-07-29 23:31:23,080 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-07-29 23:31:24,066 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Madame%20Medusa%20-%20The%20Boss HTTP/1.1" 200 None
+2024-07-29 23:31:24,069 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-29 23:31:24,415 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/3/112 HTTP/1.1" 200 None
+2024-07-30 21:42:29,372 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-30 21:42:29,992 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/1/207 HTTP/1.1" 200 None
+2024-07-30 21:42:37,266 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-07-30 21:42:37,602 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/2/207 HTTP/1.1" 200 None
+2024-08-02 18:58:51,201 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 18:58:51,916 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/1 HTTP/1.1" 200 None
+2024-08-02 18:59:02,247 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 18:59:02,654 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/207 HTTP/1.1" 200 None
+2024-08-02 19:06:14,944 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 19:06:15,413 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/1/104 HTTP/1.1" 200 None
+2024-08-02 19:06:20,298 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 19:06:20,653 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/104 HTTP/1.1" 200 None
+2024-08-02 19:07:53,076 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 19:07:53,522 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/58 HTTP/1.1" 200 None
+2024-08-02 19:08:50,829 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 19:08:51,464 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/200 HTTP/1.1" 200 None
+2024-08-02 21:01:46,025 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 21:01:46,735 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/8/502 HTTP/1.1" 404 None
+2024-08-02 21:01:46,736 - DEBUG - Failed to fetch card image: 404 Client Error: Not Found for url: https://api.lorcast.com/v0/cards/8/502
+2024-08-02 21:01:54,549 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 21:01:54,959 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/8/201 HTTP/1.1" 404 None
+2024-08-02 21:01:54,962 - DEBUG - Failed to fetch card image: 404 Client Error: Not Found for url: https://api.lorcast.com/v0/cards/8/201
+2024-08-02 21:02:01,865 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 21:02:02,208 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/201 HTTP/1.1" 200 None
+2024-08-02 21:02:06,350 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 21:02:06,692 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/202 HTTP/1.1" 200 None
+2024-08-02 21:02:11,816 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 21:02:12,246 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/206 HTTP/1.1" 404 None
+2024-08-02 21:02:12,250 - DEBUG - Failed to fetch card image: 404 Client Error: Not Found for url: https://api.lorcast.com/v0/cards/5/206
+2024-08-02 21:02:19,502 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 21:02:19,904 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/205 HTTP/1.1" 404 None
+2024-08-02 21:02:19,906 - DEBUG - Failed to fetch card image: 404 Client Error: Not Found for url: https://api.lorcast.com/v0/cards/5/205
+2024-08-02 21:02:23,165 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 21:02:23,510 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/207 HTTP/1.1" 200 None
+2024-08-02 21:02:27,373 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 21:02:27,714 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/208 HTTP/1.1" 200 None
+2024-08-02 21:02:33,286 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 21:02:33,654 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/209 HTTP/1.1" 404 None
+2024-08-02 21:02:33,656 - DEBUG - Failed to fetch card image: 404 Client Error: Not Found for url: https://api.lorcast.com/v0/cards/5/209
+2024-08-02 21:02:37,867 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 21:02:38,036 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/1 HTTP/1.1" 200 None
+2024-08-02 21:32:47,403 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 21:32:47,796 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/15/204 HTTP/1.1" 404 None
+2024-08-02 21:32:47,798 - DEBUG - Failed to fetch card image: 404 Client Error: Not Found for url: https://api.lorcast.com/v0/cards/15/204
+2024-08-02 21:32:58,203 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 21:32:58,544 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/15 HTTP/1.1" 200 None
+2024-08-02 21:38:38,142 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 21:38:38,578 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/31 HTTP/1.1" 200 None
+2024-08-02 21:39:38,605 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 21:39:39,011 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/37 HTTP/1.1" 200 None
+2024-08-02 21:39:45,248 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 21:39:45,677 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/32 HTTP/1.1" 200 None
+2024-08-02 21:39:59,458 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 21:39:59,811 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/3 HTTP/1.1" 200 None
+2024-08-02 21:51:57,978 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 21:51:58,382 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/68 HTTP/1.1" 200 None
+2024-08-02 21:53:20,459 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 21:53:20,830 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/94 HTTP/1.1" 200 None
+2024-08-02 21:53:47,899 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 21:53:48,361 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/86 HTTP/1.1" 200 None
+2024-08-02 21:54:07,144 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 21:54:07,598 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/87 HTTP/1.1" 200 None
+2024-08-02 21:54:13,197 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 21:54:13,590 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/84 HTTP/1.1" 200 None
+2024-08-02 21:57:25,188 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 21:57:25,678 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/89 HTTP/1.1" 200 None
+2024-08-02 22:06:36,557 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 22:06:36,970 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/100 HTTP/1.1" 200 None
+2024-08-02 22:15:37,741 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 22:15:38,233 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/105 HTTP/1.1" 200 None
+2024-08-02 22:25:08,626 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 22:25:09,116 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/165 HTTP/1.1" 200 None
+2024-08-02 22:25:46,582 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 22:25:46,984 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/155 HTTP/1.1" 200 None
+2024-08-02 22:43:21,395 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 22:43:21,818 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/193 HTTP/1.1" 200 None
+2024-08-02 23:01:50,004 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 23:01:50,442 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/31 HTTP/1.1" 200 None
+2024-08-02 23:01:53,879 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 23:01:54,269 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/31 HTTP/1.1" 200 None
+2024-08-02 23:02:05,890 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 23:02:06,337 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/31 HTTP/1.1" 200 None
+2024-08-02 23:04:24,315 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 23:04:25,080 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/21 HTTP/1.1" 200 None
+2024-08-02 23:05:33,968 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 23:05:34,378 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/33 HTTP/1.1" 200 None
+2024-08-02 23:07:14,303 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 23:07:14,786 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/20 HTTP/1.1" 200 None
+2024-08-02 23:08:23,880 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 23:08:24,271 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/3 HTTP/1.1" 200 None
+2024-08-02 23:08:35,503 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 23:08:35,945 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/16 HTTP/1.1" 200 None
+2024-08-02 23:08:41,658 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 23:08:42,114 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/20 HTTP/1.1" 200 None
+2024-08-02 23:08:52,278 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 23:08:52,496 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/16 HTTP/1.1" 200 None
+2024-08-02 23:10:24,027 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 23:10:24,442 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/20 HTTP/1.1" 200 None
+2024-08-02 23:10:45,025 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 23:10:45,268 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/16 HTTP/1.1" 200 None
+2024-08-02 23:13:15,093 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 23:13:15,565 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/3 HTTP/1.1" 200 None
+2024-08-02 23:15:50,335 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 23:15:50,742 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/15 HTTP/1.1" 200 None
+2024-08-02 23:17:27,010 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 23:17:27,453 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/67 HTTP/1.1" 200 None
+2024-08-02 23:18:23,323 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 23:18:23,803 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/47 HTTP/1.1" 200 None
+2024-08-02 23:19:25,153 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 23:19:25,543 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/62 HTTP/1.1" 200 None
+2024-08-02 23:21:06,474 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 23:21:07,052 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/48 HTTP/1.1" 200 None
+2024-08-02 23:23:10,954 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 23:23:11,408 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/46 HTTP/1.1" 200 None
+2024-08-02 23:24:09,613 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 23:24:10,032 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/56 HTTP/1.1" 200 None
+2024-08-02 23:24:43,920 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 23:24:44,309 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/64 HTTP/1.1" 200 None
+2024-08-02 23:25:56,217 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 23:25:56,676 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/68 HTTP/1.1" 200 None
+2024-08-02 23:27:39,261 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 23:27:40,072 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/44 HTTP/1.1" 200 None
+2024-08-02 23:29:49,565 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 23:29:50,050 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/93 HTTP/1.1" 200 None
+2024-08-02 23:31:45,165 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 23:31:45,633 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/96 HTTP/1.1" 200 None
+2024-08-02 23:33:43,093 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 23:33:43,539 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/101 HTTP/1.1" 200 None
+2024-08-02 23:37:34,097 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 23:37:34,573 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/89 HTTP/1.1" 200 None
+2024-08-02 23:37:44,951 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 23:37:45,340 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/90 HTTP/1.1" 200 None
+2024-08-02 23:37:51,136 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 23:37:51,525 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/88 HTTP/1.1" 200 None
+2024-08-02 23:38:12,816 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 23:38:13,209 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/101 HTTP/1.1" 200 None
+2024-08-02 23:38:22,638 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 23:38:23,087 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/92 HTTP/1.1" 200 None
+2024-08-02 23:39:41,981 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 23:39:42,551 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/89 HTTP/1.1" 200 None
+2024-08-02 23:40:06,097 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 23:40:06,567 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/92 HTTP/1.1" 200 None
+2024-08-02 23:40:54,220 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 23:40:54,664 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/84 HTTP/1.1" 200 None
+2024-08-02 23:42:35,887 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 23:42:36,341 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/86 HTTP/1.1" 200 None
+2024-08-02 23:43:50,356 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 23:43:50,728 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/85 HTTP/1.1" 200 None
+2024-08-02 23:45:56,506 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-02 23:45:56,683 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/100 HTTP/1.1" 200 None
+2024-08-03 00:00:09,562 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-03 00:00:09,945 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/123 HTTP/1.1" 200 None
+2024-08-03 00:05:35,542 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-03 00:05:35,997 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/121 HTTP/1.1" 200 None
+2024-08-03 00:06:35,870 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-03 00:06:36,234 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/133 HTTP/1.1" 200 None
+2024-08-03 00:09:20,721 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-03 00:09:21,092 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/134 HTTP/1.1" 200 None
+2024-08-03 00:10:48,634 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-03 00:10:49,089 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/118 HTTP/1.1" 200 None
+2024-08-03 00:13:45,075 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-03 00:13:45,464 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/119 HTTP/1.1" 200 None
+2024-08-03 00:15:58,240 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-03 00:15:58,641 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/107 HTTP/1.1" 200 None
+2024-08-03 00:16:58,444 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-03 00:16:58,837 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/105 HTTP/1.1" 200 None
+2024-08-03 00:19:32,665 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-03 00:19:32,862 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/143 HTTP/1.1" 200 None
+2024-08-03 00:21:32,289 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-03 00:21:32,725 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/146 HTTP/1.1" 200 None
+2024-08-03 00:23:46,438 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-03 00:23:47,068 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/163 HTTP/1.1" 200 None
+2024-08-03 00:25:08,159 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-03 00:25:08,609 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/155 HTTP/1.1" 200 None
+2024-08-03 00:27:05,659 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-03 00:27:06,143 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/159 HTTP/1.1" 200 None
+2024-08-03 00:31:35,871 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-03 00:31:36,260 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/150 HTTP/1.1" 200 None
+2024-08-03 00:34:29,503 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-03 00:34:29,923 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/158 HTTP/1.1" 200 None
+2024-08-03 00:37:34,812 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-03 00:37:35,194 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/170 HTTP/1.1" 200 None
+2024-08-03 00:39:32,139 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-03 00:39:32,602 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/193 HTTP/1.1" 200 None
+2024-08-03 00:41:00,349 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-03 00:41:00,726 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/185 HTTP/1.1" 200 None
+2024-08-03 00:43:41,019 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-03 00:43:41,473 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/192 HTTP/1.1" 200 None
+2024-08-03 00:45:31,174 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-03 00:45:31,634 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/195 HTTP/1.1" 200 None
+2024-08-03 00:48:20,481 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-03 00:48:20,856 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/194 HTTP/1.1" 200 None
+2024-08-03 00:52:26,501 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-03 00:52:26,910 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/176 HTTP/1.1" 200 None
+2024-08-03 00:54:26,921 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-03 00:54:27,542 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/194 HTTP/1.1" 200 None
+2024-08-13 13:55:54,678 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-13 13:55:55,275 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/1 HTTP/1.1" 200 None
+2024-08-13 13:56:08,287 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-13 13:56:08,633 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/12 HTTP/1.1" 200 None
+2024-08-13 13:56:13,623 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-13 13:56:13,973 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/16 HTTP/1.1" 200 None
+2024-08-29 20:32:27,518 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-08-29 20:32:29,964 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Kit%20Cloudkicker%20-%20Tough%20Guy HTTP/1.1" 200 None
+2024-08-29 20:32:30,117 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-29 20:32:30,512 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/3/77 HTTP/1.1" 200 None
+2024-08-29 20:32:34,678 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-08-29 20:32:36,120 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Merlin%20-%20Goat HTTP/1.1" 200 None
+2024-08-29 20:32:36,262 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-29 20:32:36,632 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/2/51 HTTP/1.1" 200 None
+2024-08-29 20:32:39,569 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-08-29 20:32:41,016 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Ursula%20-%20Deceiver HTTP/1.1" 200 None
+2024-08-29 20:32:41,117 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-29 20:32:41,491 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/3/90 HTTP/1.1" 200 None
+2024-08-29 20:32:56,079 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-08-29 20:32:57,631 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Clarabelle%20-%20Light%20on%20Her%20Hooves HTTP/1.1" 200 None
+2024-08-29 20:32:57,780 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-29 20:32:58,176 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/84 HTTP/1.1" 200 None
+2024-08-29 20:50:13,625 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-08-29 20:50:15,238 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Robin%20Hood%20-%20Champion%20of%20Sherwood HTTP/1.1" 200 None
+2024-08-29 20:50:15,388 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-29 20:50:15,827 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/3/190 HTTP/1.1" 200 None
+2024-08-29 20:56:48,817 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-08-29 20:56:50,141 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Clarabelle%20-%20Clumsy%20Guest HTTP/1.1" 200 None
+2024-08-29 20:56:50,284 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-29 20:56:50,695 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/86 HTTP/1.1" 200 None
+2024-08-29 20:57:03,012 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-08-29 20:57:04,369 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Robin%20Hood%20-%20Beloved%20Outlaw HTTP/1.1" 200 None
+2024-08-29 20:57:04,503 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-29 20:57:04,908 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/3/189 HTTP/1.1" 200 None
+2024-08-29 20:57:52,501 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-08-29 20:57:53,841 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Madam%20Mim%20-%20Snake HTTP/1.1" 200 None
+2024-08-29 20:57:53,985 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-29 20:57:54,379 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/2/49 HTTP/1.1" 200 None
+2024-08-29 20:59:22,478 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-08-29 20:59:23,757 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Emerald%20Chromicon HTTP/1.1" 200 None
+2024-08-29 20:59:23,898 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-29 20:59:24,288 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/100 HTTP/1.1" 200 None
+2024-08-29 21:01:31,720 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-08-29 21:01:33,074 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Beast%20-%20Tragic%20Hero HTTP/1.1" 200 None
+2024-08-29 21:01:33,213 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-29 21:01:33,601 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/2/173 HTTP/1.1" 200 None
+2024-08-29 21:02:33,967 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-08-29 21:02:35,324 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Morph%20-%20Space%20Goo HTTP/1.1" 200 None
+2024-08-29 21:02:35,480 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-29 21:02:35,878 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/3/81 HTTP/1.1" 200 None
+2024-08-29 21:02:35,898 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-08-29 21:02:37,605 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Chief%20Bogo%20-%20Respected%20Officer HTTP/1.1" 200 None
+2024-08-29 21:02:37,617 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-29 21:02:38,008 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/2/175 HTTP/1.1" 200 None
+2024-08-29 21:02:38,333 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-08-29 21:02:39,699 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Chief%20Bogo%20-%20Respected%20Officer HTTP/1.1" 200 None
+2024-08-29 21:02:39,849 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-29 21:02:40,248 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/2/175 HTTP/1.1" 200 None
+2024-08-29 21:05:26,311 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-08-29 21:05:28,727 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Elsa%20-%20The%20Fifth%20Spirit HTTP/1.1" 200 None
+2024-08-29 21:05:28,864 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-29 21:05:29,250 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/48 HTTP/1.1" 200 None
+2024-08-29 21:10:26,479 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-08-29 21:10:27,868 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Arthur%20-%20King%20Victorious HTTP/1.1" 200 None
+2024-08-29 21:10:28,013 - DEBUG - Failed to fetch card by name: list index out of range
+2024-08-29 21:13:12,098 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-08-29 21:13:13,609 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Kronk%20-%20Unlicensed%20Investigator HTTP/1.1" 200 None
+2024-08-29 21:13:13,747 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-29 21:13:14,131 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/178 HTTP/1.1" 200 None
+2024-08-29 21:13:18,511 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-08-29 21:13:19,635 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Kronk%20-%20Head%20of%20Security HTTP/1.1" 200 None
+2024-08-29 21:13:19,775 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-29 21:13:20,175 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/185 HTTP/1.1" 200 None
+2024-08-29 21:19:49,097 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-08-29 21:19:50,982 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Elsa%20-%20The%20Fifth%20Spirit HTTP/1.1" 200 None
+2024-08-29 21:19:51,125 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-29 21:19:51,518 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/48 HTTP/1.1" 200 None
+2024-08-29 21:21:50,288 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-08-29 21:21:51,670 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=One%20Jump%20Ahead HTTP/1.1" 200 None
+2024-08-29 21:21:51,808 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-29 21:21:52,179 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/1/164 HTTP/1.1" 200 None
+2024-08-29 21:22:06,787 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-08-29 21:22:08,282 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Madam%20Mim%20-%20Elephant HTTP/1.1" 200 None
+2024-08-29 21:22:08,424 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-29 21:22:08,808 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/44 HTTP/1.1" 200 None
+2024-08-29 21:23:22,745 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-08-29 21:23:24,106 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=The%20Library%20-%20A%20Gift%20for%20Belle HTTP/1.1" 200 None
+2024-08-29 21:23:24,244 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-29 21:23:24,654 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/68 HTTP/1.1" 200 None
+2024-08-29 21:25:41,943 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-08-29 21:25:44,388 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Cogsworth%20-%20Illuminary%20Watchman HTTP/1.1" 200 None
+2024-08-29 21:25:44,530 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-29 21:25:44,962 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/37 HTTP/1.1" 200 None
+2024-08-29 21:25:49,608 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-08-29 21:25:50,842 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Cogsworth%20-%20Illuminary%20Watchman HTTP/1.1" 200 None
+2024-08-29 21:25:50,983 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-29 21:25:51,366 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/37 HTTP/1.1" 200 None
+2024-08-29 21:25:52,381 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-08-29 21:25:53,564 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Cogsworth%20-%20Grandfather%20Clock HTTP/1.1" 200 None
+2024-08-29 21:25:53,707 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-29 21:25:54,093 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/2/142 HTTP/1.1" 200 None
+2024-08-29 21:32:26,681 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-08-29 21:32:28,109 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Mufasa%20-%20Ruler%20of%20Pride%20Rock HTTP/1.1" 200 None
+2024-08-29 21:32:28,249 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-29 21:32:28,657 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/150 HTTP/1.1" 200 None
+2024-08-29 21:32:34,780 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-08-29 21:32:36,096 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Banzai%20-%20Gluttonous%20Predator HTTP/1.1" 200 None
+2024-08-29 21:32:36,245 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-29 21:32:36,640 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/80 HTTP/1.1" 200 None
+2024-08-29 21:45:42,548 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-08-29 21:45:44,078 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Robin%20Hood%20-%20Champion%20of%20Sherwood HTTP/1.1" 200 None
+2024-08-29 21:45:44,221 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-29 21:45:44,614 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/3/190 HTTP/1.1" 200 None
+2024-08-29 21:45:45,821 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-08-29 21:45:47,108 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Anna%20-%20Diplomatic%20Queen HTTP/1.1" 200 None
+2024-08-29 21:45:47,269 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-29 21:45:47,693 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/85 HTTP/1.1" 200 None
+2024-08-29 21:49:29,693 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-08-29 21:49:31,042 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Rafiki%20-%20Mystical%20Fighter HTTP/1.1" 200 None
+2024-08-29 21:49:31,199 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-29 21:49:31,595 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/3/54 HTTP/1.1" 200 None
+2024-08-29 21:49:45,050 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-08-29 21:49:46,511 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Daisy%20Duck%20-%20Donald's%20Date HTTP/1.1" 200 None
+2024-08-29 21:49:46,517 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-29 21:49:46,903 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/16 HTTP/1.1" 200 None
+2024-08-29 21:53:54,676 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-08-29 21:53:56,055 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Lyle%20Tiberius%20Rourke%20-%20Cunning%20Mercenary HTTP/1.1" 200 None
+2024-08-29 21:53:56,198 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-29 21:53:56,614 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/3/78 HTTP/1.1" 200 None
+2024-08-29 21:54:02,981 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-08-29 21:54:04,310 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Strength%20of%20a%20Raging%20Fire HTTP/1.1" 200 None
+2024-08-29 21:54:04,447 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-29 21:54:04,862 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/2/201 HTTP/1.1" 200 None
+2024-08-29 22:03:02,181 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-08-29 22:03:03,561 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Robin%20Hood%20-%20Champion%20of%20Sherwood HTTP/1.1" 200 None
+2024-08-29 22:03:03,700 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-29 22:03:04,149 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/3/190 HTTP/1.1" 200 None
+2024-08-29 22:09:58,508 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-08-29 22:09:59,827 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Daisy%20Duck%20-%20Donald's%20Date HTTP/1.1" 200 None
+2024-08-29 22:09:59,961 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-08-29 22:10:00,448 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/16 HTTP/1.1" 200 None
+2024-09-03 20:52:44,030 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-09-03 20:52:44,898 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/1/207 HTTP/1.1" 200 None
+2024-09-03 20:53:15,684 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-09-03 20:53:16,055 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/1/207 HTTP/1.1" 200 None
+2024-09-03 20:53:23,864 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-09-03 20:53:24,289 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/207 HTTP/1.1" 200 None
+2024-09-03 20:53:28,989 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-09-03 20:53:29,420 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/205 HTTP/1.1" 200 None
+2024-09-03 21:04:48,717 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-09-03 21:04:50,208 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Rafiki%20-%20Mystical%20Fighter HTTP/1.1" 200 None
+2024-09-03 21:04:50,346 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-09-03 21:04:50,741 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/3/54 HTTP/1.1" 200 None
+2024-09-03 21:05:07,454 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-09-03 21:05:09,073 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Mr.%20Smee%20-%20Bumbling%20Mate HTTP/1.1" 200 None
+2024-09-03 21:05:09,161 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-09-03 21:05:09,532 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/3/184 HTTP/1.1" 200 None
+2024-09-03 21:10:04,743 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-09-03 21:10:06,142 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Robin%20Hood%20-%20Champion%20of%20Sherwood HTTP/1.1" 200 None
+2024-09-03 21:10:06,281 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-09-03 21:10:06,686 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/3/190 HTTP/1.1" 200 None
+2024-09-03 21:10:18,894 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-09-03 21:10:20,100 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=And%20Then%20Along%20Came%20Zeus HTTP/1.1" 200 None
+2024-09-03 21:10:20,231 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-09-03 21:10:20,621 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/3/195 HTTP/1.1" 200 None
+2024-09-03 21:17:16,042 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-09-03 21:17:17,639 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Ariel%20-%20Spectacular%20Singer HTTP/1.1" 200 None
+2024-09-03 21:17:17,808 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-09-03 21:17:18,264 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/1/2 HTTP/1.1" 200 None
+2024-09-03 21:17:23,627 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-09-03 21:17:24,942 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Prince%20Naveen%20-%20Ukulele%20Player HTTP/1.1" 200 None
+2024-09-03 21:17:25,087 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-09-03 21:17:25,453 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/3 HTTP/1.1" 200 None
+2024-09-03 21:21:22,881 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-09-03 21:21:24,232 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Tipo%20-%20Growing%20Son HTTP/1.1" 200 None
+2024-09-03 21:21:24,360 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-09-03 21:21:24,791 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/157 HTTP/1.1" 200 None
+2024-09-03 21:21:37,120 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-09-03 21:21:38,407 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Piglet%20-%20Pooh%20Pirate%20Captain HTTP/1.1" 200 None
+2024-09-03 21:21:38,546 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-09-03 21:21:38,982 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/3/16 HTTP/1.1" 200 None
+2024-09-03 21:28:10,502 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-09-03 21:28:11,804 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Maui%20-%20Hero%20to%20All HTTP/1.1" 200 None
+2024-09-03 21:28:11,937 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-09-03 21:28:12,387 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/1/114 HTTP/1.1" 200 None
+2024-09-03 21:28:30,052 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-09-03 21:28:31,375 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=A%20Whole%20New%20World HTTP/1.1" 200 None
+2024-09-03 21:28:31,518 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-09-03 21:28:31,941 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/1/195 HTTP/1.1" 200 None
+2024-09-03 21:30:20,708 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-09-03 21:30:21,968 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Chicha%20-%20Dedicated%20Mother HTTP/1.1" 200 None
+2024-09-03 21:30:22,108 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-09-03 21:30:22,529 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/146 HTTP/1.1" 200 None
+2024-09-03 21:31:06,659 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-09-03 21:31:08,064 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Ariel%20-%20Spectacular%20Singer HTTP/1.1" 200 None
+2024-09-03 21:31:08,198 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-09-03 21:31:08,624 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/1/2 HTTP/1.1" 200 None
+2024-09-03 21:34:45,120 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-09-03 21:34:46,398 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Ursula%20-%20Vanessa HTTP/1.1" 200 None
+2024-09-03 21:34:46,533 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-09-03 21:34:46,977 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/4/25 HTTP/1.1" 200 None
+2024-09-03 21:41:10,347 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-09-03 21:41:11,678 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Vision%20of%20the%20Future HTTP/1.1" 200 None
+2024-09-03 21:41:11,804 - DEBUG - Starting new HTTPS connection (1): api.lorcast.com:443
+2024-09-03 21:41:12,260 - DEBUG - https://api.lorcast.com:443 "GET /v0/cards/5/160 HTTP/1.1" 200 None
+2024-09-15 22:45:38,595 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/1/cards/1468x2048/356a192b7913b04c54574d18c28d46e6395428ab.jpg
+2024-09-15 22:48:11,661 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-09-15 22:48:13,524 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=How%20Far%20I'll%20Go HTTP/1.1" 200 None
+2024-09-15 22:48:13,660 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/3/cards/1468x2048/0159a99ed28b0581890608d24ada9decc4874197.jpg
+2024-09-15 22:48:32,559 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-09-15 22:48:33,702 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=How%20Far%20I'll%20Go HTTP/1.1" 200 None
+2024-09-15 22:48:33,836 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/3/cards/1468x2048/0159a99ed28b0581890608d24ada9decc4874197.jpg
+2024-09-15 22:48:35,432 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-09-15 22:48:36,649 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Pawpsicle HTTP/1.1" 200 None
+2024-09-15 22:48:36,786 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/2659fc519890c924f82b4475ddd71b058178d02b.jpg
+2024-09-15 22:48:43,486 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-09-15 22:48:44,710 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Fishbone%20Quill HTTP/1.1" 200 None
+2024-09-15 22:48:44,848 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/1/cards/1468x2048/f76b2ea6b45eff3bc8e4399145cc17a0601f5c8d.jpg
+2024-09-15 22:50:35,045 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/1/cards/1468x2048/ac3478d69a3c81fa62e60f5c3696165a4e5e6ac4.jpg
+2024-09-15 22:51:43,202 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/d30f79cf7fef47bd7a5611719f936539bec0d2e9.jpg
+2024-09-15 22:51:53,995 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-09-15 22:51:55,790 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Vision%20of%20the%20Future HTTP/1.1" 200 None
+2024-09-15 22:51:55,939 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/be057d4ca44c10a0fc1dfcffd99cce1490291dc7.jpg
+2024-09-15 22:52:05,421 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/4/cards/1468x2048/74cbd2c215c2c13c4b6110ada96de8891b355dda.jpg
+2024-09-15 22:55:38,411 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-09-15 22:55:39,579 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Prince%20Naveen%20-%20Ukulele%20Player HTTP/1.1" 200 None
+2024-09-15 22:55:39,720 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/77de68daecd823babbb58edb1c8e14d7106e83bb.jpg
+2024-09-20 22:25:09,793 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/4/cards/1468x2048/1574bddb75c78a6fd2251d61e2993b5146201319.jpg
+2024-09-20 22:25:17,766 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/50336bc687eb161ee9fb0ddb8cf2b7e65bad865f.jpg
+2024-09-23 21:15:14,211 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-09-23 21:15:16,718 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Mufasa%20-%20Ruler%20of%20Pride%20Rock HTTP/1.1" 200 None
+2024-09-23 21:15:16,874 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/13682ac418603aa0966369d46bbf282f562acf47.jpg
+2024-09-23 21:15:22,699 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-09-23 21:15:24,224 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Robin%20Hood%20-%20Champion%20of%20Sherwood HTTP/1.1" 200 None
+2024-09-23 21:15:24,373 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/3/cards/1468x2048/3a2dc677d8e85ac856541744e288d504882feb36.jpg
+2024-09-23 21:25:54,179 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-09-23 21:25:55,611 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Pawpsicle HTTP/1.1" 200 None
+2024-09-23 21:25:55,761 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/2659fc519890c924f82b4475ddd71b058178d02b.jpg
+2024-09-23 21:26:21,022 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-09-23 21:26:22,552 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Cinderella%20-%20Ballroom%20Sensation HTTP/1.1" 200 None
+2024-09-23 21:26:22,700 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/77de68daecd823babbb58edb1c8e14d7106e83bb.jpg
+2024-09-23 21:26:53,331 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-09-23 21:26:54,948 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Vision%20of%20the%20Future HTTP/1.1" 200 None
+2024-09-23 21:26:55,091 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/be057d4ca44c10a0fc1dfcffd99cce1490291dc7.jpg
+2024-09-23 21:28:26,878 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-09-23 21:28:28,096 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Lantern HTTP/1.1" 200 None
+2024-09-23 21:28:28,248 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/1/cards/1468x2048/b6692ea5df920cad691c20319a6fffd7a4a766b8.jpg
+2024-09-23 21:30:34,775 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-09-23 21:30:36,445 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Ariel%20-%20Spectacular%20Singer HTTP/1.1" 200 None
+2024-09-23 21:30:36,581 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/1/cards/1468x2048/da4b9237bacccdf19c0760cab7aec4a8359010b0.jpg
+2024-09-23 21:33:17,063 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-09-23 21:33:18,380 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Sisu%20-%20Daring%20Visitor HTTP/1.1" 200 None
+2024-09-23 21:33:18,530 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/4/cards/1468x2048/40bd001563085fc35165329ea1ff5c5ecbdbbeef.jpg
+2024-09-23 21:33:22,875 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-09-23 21:33:24,134 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Let%20the%20Storm%20Rage%20On HTTP/1.1" 200 None
+2024-09-23 21:33:24,285 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/2952aeca0fe15cf310ede96c437acb94b2b208f1.jpg
+2024-09-23 21:35:27,335 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-09-23 21:35:28,598 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Hiram%20Flaversham%20-%20Toymaker HTTP/1.1" 200 None
+2024-09-23 21:35:28,754 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/39dfc9ffd3253c48c9af5dd55c4b3e4b4b5e6229.jpg
+2024-09-23 21:37:24,295 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-09-23 21:37:25,562 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Ursula%20-%20Vanessa HTTP/1.1" 200 None
+2024-09-23 21:37:25,726 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/4/cards/1468x2048/f6e1126cedebf23e1463aee73f9df08783640400.jpg
+2024-09-23 21:55:24,362 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-09-23 21:55:25,728 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Cinderella%20-%20Stouthearted HTTP/1.1" 200 None
+2024-09-23 21:55:25,874 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/26e7458dc56ab2830fadba7bd2c1aa10e981518d.jpg
+2024-09-23 21:55:29,833 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-09-23 21:55:31,069 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Lucky%20Dime HTTP/1.1" 200 None
+2024-09-23 21:55:31,228 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/3/cards/1468x2048/74cbd2c215c2c13c4b6110ada96de8891b355dda.jpg
+2024-09-26 19:24:12,447 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-09-26 19:24:14,920 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Vision%20of%20the%20Future HTTP/1.1" 200 None
+2024-09-26 19:24:15,085 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/be057d4ca44c10a0fc1dfcffd99cce1490291dc7.jpg
+2024-09-26 19:24:16,414 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-09-26 19:24:17,680 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Clarabelle%20-%20Light%20on%20Her%20Hooves HTTP/1.1" 200 None
+2024-09-26 19:24:17,819 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/be461a0cd1fda052a69c3fd94f8cf5f6f86afa34.jpg
+2024-11-03 21:52:06,483 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/632667547e7cd3e0466547863e1207a8c0c0c549.jpg
+2024-11-03 21:59:41,967 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/b6692ea5df920cad691c20319a6fffd7a4a766b8.jpg
+2024-11-03 22:00:43,518 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/91032ad7bbcb6cf72875e8e8207dcfba80173f7c.jpg
+2024-11-03 22:01:28,064 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/1574bddb75c78a6fd2251d61e2993b5146201319.jpg
+2024-11-03 22:02:28,439 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/77de68daecd823babbb58edb1c8e14d7106e83bb.jpg
+2024-11-03 22:03:34,814 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/9e6a55b6b4563e652a23be9d623ca5055c356940.jpg
+2024-11-03 22:04:07,578 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/0716d9708d321ffb6a00818614779e779925365c.jpg
+2024-11-03 22:06:04,097 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/7b52009b64fd0a2a49e6d8a939753077792b0554.jpg
+2024-11-03 22:07:38,658 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/4d89d294cd4ca9f2ca57dc24a53ffb3ef5303122.jpg
+2024-11-03 22:08:39,139 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/827bfc458708f0b442009c9c9836f7e4b65557fb.jpg
+2024-11-03 22:10:04,452 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/511a418e72591eb7e33f703f04c3fa16df6c90bd.jpg
+2024-11-03 22:11:13,775 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/64e095fe763fc62418378753f9402623bea9e227.jpg
+2024-11-03 22:12:41,741 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/fe2ef495a1152561572949784c16bf23abb28057.jpg
+2024-11-03 22:14:52,838 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/cb7a1d775e800fd1ee4049f7dca9e041eb9ba083.jpg
+2024-11-03 22:15:45,703 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/b4c96d80854dd27e76d8cc9e21960eebda52e962.jpg
+2024-11-03 22:17:22,143 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/e6c3dd630428fd54834172b8fd2735fed9416da4.jpg
+2024-11-03 22:18:56,414 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/08a35293e09f508494096c1c1b3819edb9df50db.jpg
+2024-11-03 22:20:13,206 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/6fb84aed32facd1299ee1e77c8fd2b1a6352669e.jpg
+2024-11-03 22:21:12,012 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/dbc0f004854457f59fb16ab863a3a1722cef553f.jpg
+2024-11-03 22:22:32,840 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/8ee51caaa2c2f4ee2e5b4b7ef5a89db7df1068d7.jpg
+2024-11-03 22:24:08,910 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/be461a0cd1fda052a69c3fd94f8cf5f6f86afa34.jpg
+2024-11-03 22:25:04,516 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/b888b29826bb53dc531437e723738383d8339b56.jpg
+2024-11-03 22:26:33,489 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/1352246e33277e9d3c9090a434fa72cfa6536ae2.jpg
+2024-11-03 22:28:41,594 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/40bd001563085fc35165329ea1ff5c5ecbdbbeef.jpg
+2024-11-03 22:29:56,038 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/8bd7954c40c1e59a900f71ea3a266732609915b1.jpg
+2024-11-03 22:30:57,281 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/d30f79cf7fef47bd7a5611719f936539bec0d2e9.jpg
+2024-11-03 22:31:39,369 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/95e815d1541bf6f358cfffbe66ab3af0d0c09d09.jpg
+2024-11-03 22:32:26,340 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/12f0de3dc76e067d21ed85125716e02e9f1e69f0.jpg
+2024-11-03 22:33:30,862 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/828f720439cefaeb3acc7a7babce0a28abaa07a3.jpg
+2024-11-03 22:34:19,506 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/f47aea8bdcbd1179a1f3d91e6afeeb259488f2d1.jpg
+2024-11-03 22:35:21,933 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/fd93751649ac3ea8f8772ba49c8c1fe068002835.jpg
+2024-11-03 22:36:04,985 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/9d8974baddfc0e53300829f37e5fc88b0f5ce61b.jpg
+2024-11-03 22:37:40,542 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/6b6277afcb65d33525545904e95c2fa240632660.jpg
+2024-11-03 22:39:05,240 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/13682ac418603aa0966369d46bbf282f562acf47.jpg
+2024-11-03 22:40:34,574 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/097ccd4f03d962011101c1221009e53461a0993f.jpg
+2024-11-03 22:41:10,746 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/be057d4ca44c10a0fc1dfcffd99cce1490291dc7.jpg
+2024-11-03 22:42:03,376 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/39dfc9ffd3253c48c9af5dd55c4b3e4b4b5e6229.jpg
+2024-11-03 22:42:35,933 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/c28aca23f1ef3718a464383d925c66842078edaa.jpg
+2024-11-03 22:44:06,696 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/14bb99f81147d2705f53a1d75337b2ec3e10d23a.jpg
+2024-11-03 22:45:15,258 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/cfa2ed2aac6d61f44ca9cba73e1e8946b7cd7d22.jpg
+2024-11-03 22:46:19,541 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/19a448c01aa2e7d55979473b647e282459995b85.jpg
+2024-11-03 22:47:00,475 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/752ae7bdbb96bf25280b55990570beabf2048ce0.jpg
+2024-11-03 22:47:49,706 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/2a79f14120945873482b7823caabe2fcde848722.jpg
+2024-11-03 22:48:40,341 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/9a70776c743352cfcf688e52512673332e5e4007.jpg
+2024-11-03 22:49:51,405 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/77de68daecd823babbb58edb1c8e14d7106e83bb.jpg
+2024-11-03 23:12:02,367 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-11-03 23:12:05,182 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Belle%20-%20Accomplished%20Mystic HTTP/1.1" 200 None
+2024-11-03 23:12:05,361 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/4/cards/1468x2048/fc074d501302eb2b93e2554793fcaf50b3bf7291.jpg
+2024-11-03 23:12:05,365 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-11-03 23:12:06,580 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Robin%20Hood%20-%20Champion%20of%20Sherwood HTTP/1.1" 200 None
+2024-11-03 23:12:06,744 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/3/cards/1468x2048/3a2dc677d8e85ac856541744e288d504882feb36.jpg
+2024-11-03 23:12:06,756 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-11-03 23:12:08,530 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Robin%20Hood%20-%20Champion%20of%20Sherwood HTTP/1.1" 200 None
+2024-11-03 23:12:08,684 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/3/cards/1468x2048/3a2dc677d8e85ac856541744e288d504882feb36.jpg
+2024-11-03 23:16:03,951 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-11-03 23:16:05,784 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Tipo%20-%20Growing%20Son HTTP/1.1" 200 None
+2024-11-03 23:16:05,951 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/097ccd4f03d962011101c1221009e53461a0993f.jpg
+2024-11-03 23:19:22,641 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-11-03 23:19:24,404 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Sudden%20Chill HTTP/1.1" 200 None
+2024-11-03 23:19:24,566 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/1/cards/1468x2048/31bd9b9f5f7b338e41b56183a2f3008b541d7c84.jpg
+2024-11-03 23:19:28,367 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-11-03 23:19:29,658 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Elsa%20-%20Spirit%20of%20Winter HTTP/1.1" 200 None
+2024-11-03 23:19:29,804 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/1/cards/1468x2048/92cfceb39d57d914ed8b14d0e37643de0797ae56.jpg
+2024-11-03 23:19:47,107 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-11-03 23:19:48,779 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Belle%20-%20Accomplished%20Mystic HTTP/1.1" 200 None
+2024-11-03 23:19:48,926 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/4/cards/1468x2048/fc074d501302eb2b93e2554793fcaf50b3bf7291.jpg
+2024-11-03 23:24:25,022 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-11-03 23:24:26,309 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Scrooge%20McDuck%20-%20Afficionado%20of%20Antiquities HTTP/1.1" 200 None
+2024-11-03 23:24:26,459 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/c28aca23f1ef3718a464383d925c66842078edaa.jpg
+2024-11-03 23:24:30,725 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-11-03 23:24:31,959 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=McDuck%20Manor%20-%20Scrooge's%20Mansion HTTP/1.1" 200 None
+2024-11-03 23:24:32,099 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/3/cards/1468x2048/2659fc519890c924f82b4475ddd71b058178d02b.jpg
+2024-11-03 23:24:32,886 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-11-03 23:24:34,003 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Hypnotize HTTP/1.1" 200 None
+2024-11-03 23:24:34,162 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/31bd9b9f5f7b338e41b56183a2f3008b541d7c84.jpg
+2024-11-03 23:30:45,552 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-11-03 23:30:47,885 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Chernabog's%20Followers%20-%20Creatures%20of%20Evil HTTP/1.1" 200 None
+2024-11-03 23:30:48,052 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/3/cards/1468x2048/fc074d501302eb2b93e2554793fcaf50b3bf7291.jpg
+2024-11-03 23:30:51,550 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-11-03 23:30:52,865 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Diablo%20-%20Devoted%20Herald HTTP/1.1" 200 None
+2024-11-03 23:30:53,021 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/4/cards/1468x2048/b7103ca278a75cad8f7d065acda0c2e80da0b7dc.jpg
+2024-11-03 23:30:59,228 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-11-03 23:31:00,405 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Diablo%20-%20Maleficent's%20Spy HTTP/1.1" 200 None
+2024-11-03 23:31:00,566 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/4/cards/1468x2048/d02560dd9d7db4467627745bd6701e809ffca6e3.jpg
+2024-11-03 23:35:51,068 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-11-03 23:35:52,806 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Magica%20De%20Spell%20-%20Cruel%20Sorceress HTTP/1.1" 200 None
+2024-11-03 23:35:52,956 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/c5b76da3e608d34edb07244cd9b875ee86906328.jpg
+2024-11-03 23:37:28,961 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-11-03 23:37:30,618 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Diablo%20-%20Devoted%20Herald HTTP/1.1" 200 None
+2024-11-03 23:37:30,763 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/4/cards/1468x2048/b7103ca278a75cad8f7d065acda0c2e80da0b7dc.jpg
+2024-11-03 23:38:43,574 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-11-03 23:38:44,886 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Elsa%20-%20Spirit%20of%20Winter HTTP/1.1" 200 None
+2024-11-03 23:38:45,034 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/1/cards/1468x2048/92cfceb39d57d914ed8b14d0e37643de0797ae56.jpg
+2024-11-03 23:38:47,907 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-11-03 23:38:49,200 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Elsa%20-%20The%20Fifth%20Spirit HTTP/1.1" 200 None
+2024-11-03 23:38:49,342 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/64e095fe763fc62418378753f9402623bea9e227.jpg
+2024-11-03 23:38:50,426 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-11-03 23:38:51,711 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Hypnotize HTTP/1.1" 200 None
+2024-11-03 23:38:51,852 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/31bd9b9f5f7b338e41b56183a2f3008b541d7c84.jpg
+2024-11-03 23:39:01,791 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-11-03 23:39:04,028 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Beast%20-%20Tragic%20Hero HTTP/1.1" 200 None
+2024-11-03 23:39:04,175 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/572e20738130fddc7c389f2ab14f4e4b22a97c39.jpg
+2024-11-03 23:44:59,503 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-11-03 23:45:00,846 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Diablo%20-%20Devoted%20Herald HTTP/1.1" 200 None
+2024-11-03 23:45:00,993 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/4/cards/1468x2048/b7103ca278a75cad8f7d065acda0c2e80da0b7dc.jpg
+2024-11-03 23:49:55,514 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-11-03 23:49:56,799 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Lucifer%20-%20Cunning%20Cat HTTP/1.1" 200 None
+2024-11-03 23:49:56,943 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/1352246e33277e9d3c9090a434fa72cfa6536ae2.jpg
+2024-11-03 23:53:39,893 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-11-03 23:53:41,181 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Elsa%20-%20Spirit%20of%20Winter HTTP/1.1" 200 None
+2024-11-03 23:53:41,327 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/1/cards/1468x2048/92cfceb39d57d914ed8b14d0e37643de0797ae56.jpg
+2024-11-03 23:53:56,767 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-11-03 23:53:57,891 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Beast%20-%20Tragic%20Hero HTTP/1.1" 200 None
+2024-11-03 23:53:58,030 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/572e20738130fddc7c389f2ab14f4e4b22a97c39.jpg
+2024-11-03 23:54:00,079 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-11-03 23:54:01,233 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Lucifer%20-%20Cunning%20Cat HTTP/1.1" 200 None
+2024-11-03 23:54:01,384 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/1352246e33277e9d3c9090a434fa72cfa6536ae2.jpg
+2024-11-04 00:01:17,458 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/da4b9237bacccdf19c0760cab7aec4a8359010b0.jpg
+2024-11-04 00:01:22,307 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/77de68daecd823babbb58edb1c8e14d7106e83bb.jpg
+2024-11-04 00:01:25,956 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/356a192b7913b04c54574d18c28d46e6395428ab.jpg
+2024-11-07 12:30:38,838 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/77de68daecd823babbb58edb1c8e14d7106e83bb.jpg
+2024-11-25 21:47:08,089 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-11-25 21:47:11,074 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Kit%20Cloudkicker%20-%20Tough%20Guy HTTP/1.1" 200 None
+2024-11-25 21:47:11,248 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/3/cards/1468x2048/d321d6f7ccf98b51540ec9d933f20898af3bd71e.jpg
+2024-11-25 21:54:11,674 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-11-25 21:54:13,013 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Banzai%20-%20Gluttonous%20Predator HTTP/1.1" 200 None
+2024-11-25 21:54:13,220 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/b888b29826bb53dc531437e723738383d8339b56.jpg
+2024-11-25 21:54:22,619 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-11-25 21:54:24,373 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Elsa%20-%20The%20Fifth%20Spirit HTTP/1.1" 200 None
+2024-11-25 21:54:24,536 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/64e095fe763fc62418378753f9402623bea9e227.jpg
+2024-11-25 21:54:58,394 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-11-25 21:55:00,100 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Kit%20Cloudkicker%20-%20Tough%20Guy HTTP/1.1" 200 None
+2024-11-25 21:55:00,271 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/3/cards/1468x2048/d321d6f7ccf98b51540ec9d933f20898af3bd71e.jpg
+2024-11-25 21:59:48,837 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-11-25 21:59:50,636 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Sisu%20-%20Empowered%20Sibling HTTP/1.1" 200 None
+2024-11-25 21:59:50,848 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/4/cards/1468x2048/0ca9277f91e40054767f69afeb0426711ca0fddd.jpg
+2024-11-25 22:08:10,728 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-11-25 22:08:15,116 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Cinderella%20-%20Stouthearted HTTP/1.1" 200 None
+2024-11-25 22:08:15,273 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/26e7458dc56ab2830fadba7bd2c1aa10e981518d.jpg
+2024-11-25 22:08:22,627 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-11-25 22:08:25,313 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Cinderella%20-%20Ballroom%20Sensation HTTP/1.1" 200 None
+2024-11-25 22:08:25,476 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/77de68daecd823babbb58edb1c8e14d7106e83bb.jpg
+2024-11-25 22:17:27,978 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-11-25 22:17:29,791 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Ursula%20-%20Deceiver HTTP/1.1" 200 None
+2024-11-25 22:17:29,945 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/3/cards/1468x2048/2d0c8af807ef45ac17cafb2973d866ba8f38caa9.jpg
+2024-11-25 22:20:26,469 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-11-25 22:20:27,763 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Kit%20Cloudkicker%20-%20Tough%20Guy HTTP/1.1" 200 None
+2024-11-25 22:20:27,934 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/3/cards/1468x2048/d321d6f7ccf98b51540ec9d933f20898af3bd71e.jpg
+2024-12-17 20:50:18,824 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/6/cards/1468x2048/356a192b7913b04c54574d18c28d46e6395428ab.jpg
+2024-12-17 20:50:44,091 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/6/cards/1468x2048/da4b9237bacccdf19c0760cab7aec4a8359010b0.jpg
+2024-12-17 20:53:55,595 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-17 20:53:58,363 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Vision%20of%20the%20Future HTTP/1.1" 200 None
+2024-12-17 20:53:58,532 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/be057d4ca44c10a0fc1dfcffd99cce1490291dc7.jpg
+2024-12-17 20:54:04,476 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-17 20:54:07,319 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Pawpsicle HTTP/1.1" 200 None
+2024-12-17 20:54:07,472 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/2659fc519890c924f82b4475ddd71b058178d02b.jpg
+2024-12-17 21:12:28,337 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-17 21:12:29,640 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Simba%20-%20Pride%20Protector HTTP/1.1" 200 None
+2024-12-17 21:12:29,793 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/6/cards/1468x2048/91032ad7bbcb6cf72875e8e8207dcfba80173f7c.jpg
+2024-12-17 21:13:12,667 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-17 21:13:14,699 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Sisu%20-%20Empowered%20Sibling HTTP/1.1" 200 None
+2024-12-17 21:13:14,852 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/4/cards/1468x2048/0ca9277f91e40054767f69afeb0426711ca0fddd.jpg
+2024-12-17 21:26:02,947 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-17 21:26:04,634 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Pawpsicle HTTP/1.1" 200 None
+2024-12-17 21:26:04,795 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/2659fc519890c924f82b4475ddd71b058178d02b.jpg
+2024-12-17 21:26:11,940 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-17 21:26:13,256 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Simba%20-%20Future%20King HTTP/1.1" 200 None
+2024-12-17 21:26:13,423 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/1/cards/1468x2048/acf1fffc01dc0193aa07d0b1de723c292a2c826d.jpg
+2024-12-17 21:27:16,381 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-17 21:27:17,722 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Vitalisphere HTTP/1.1" 200 None
+2024-12-17 21:27:17,887 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/4/cards/1468x2048/95e815d1541bf6f358cfffbe66ab3af0d0c09d09.jpg
+2024-12-17 21:27:23,152 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-17 21:27:24,385 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Mr.%20Smee%20-%20Bumbling%20Mate HTTP/1.1" 200 None
+2024-12-17 21:27:24,541 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/3/cards/1468x2048/bcf814ab41506290ab1b8158ebda6ee61b4bb579.jpg
+2024-12-17 21:28:22,827 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-17 21:28:24,523 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Sisu%20-%20Daring%20Visitor HTTP/1.1" 200 None
+2024-12-17 21:28:24,685 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/4/cards/1468x2048/40bd001563085fc35165329ea1ff5c5ecbdbbeef.jpg
+2024-12-17 21:28:25,054 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-17 21:28:26,598 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Ariel%20-%20Spectacular%20Singer HTTP/1.1" 200 None
+2024-12-17 21:28:26,756 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/1/cards/1468x2048/da4b9237bacccdf19c0760cab7aec4a8359010b0.jpg
+2024-12-17 21:32:00,015 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-17 21:32:01,585 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Brawl HTTP/1.1" 200 None
+2024-12-17 21:32:01,732 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/4/cards/1468x2048/2a7541babb57434e5631ffa2b5639e24f8ce84fc.jpg
+2024-12-17 21:32:52,286 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-17 21:32:53,608 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Let%20the%20Storm%20Rage%20On HTTP/1.1" 200 None
+2024-12-17 21:32:53,757 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/2952aeca0fe15cf310ede96c437acb94b2b208f1.jpg
+2024-12-17 21:34:19,619 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-17 21:34:20,901 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Simba%20-%20Pride%20Protector HTTP/1.1" 200 None
+2024-12-17 21:34:21,056 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/6/cards/1468x2048/91032ad7bbcb6cf72875e8e8207dcfba80173f7c.jpg
+2024-12-17 21:34:33,153 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-17 21:34:34,430 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Hiram%20Flaversham%20-%20Toymaker HTTP/1.1" 200 None
+2024-12-17 21:34:34,575 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/39dfc9ffd3253c48c9af5dd55c4b3e4b4b5e6229.jpg
+2024-12-17 21:37:30,924 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-17 21:37:32,510 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=And%20Then%20Along%20Came%20Zeus HTTP/1.1" 200 None
+2024-12-17 21:37:32,649 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/3/cards/1468x2048/752ae7bdbb96bf25280b55990570beabf2048ce0.jpg
+2024-12-17 21:46:38,742 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-17 21:46:40,036 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Sisu%20-%20Empowered%20Sibling HTTP/1.1" 200 None
+2024-12-17 21:46:40,170 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/4/cards/1468x2048/0ca9277f91e40054767f69afeb0426711ca0fddd.jpg
+2024-12-17 21:46:51,697 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-17 21:46:52,949 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Pluto%20-%20Guard%20Dog HTTP/1.1" 200 None
+2024-12-17 21:46:53,088 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/6/cards/1468x2048/87d538ef1c1db71603e60f278446c86470162380.jpg
+2024-12-17 21:50:10,323 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-17 21:50:11,591 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Simba%20-%20Pride%20Protector HTTP/1.1" 200 None
+2024-12-17 21:50:11,751 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/6/cards/1468x2048/91032ad7bbcb6cf72875e8e8207dcfba80173f7c.jpg
+2024-12-17 21:56:31,541 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-17 21:56:33,925 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Lady%20Tremaine%20-%20Imperious%20Queen HTTP/1.1" 200 None
+2024-12-17 21:56:34,070 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/5e796e48332af4142b10ca0f86e65d9bfdb05884.jpg
+2024-12-17 21:59:05,909 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-17 21:59:07,244 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Magic%20Broom%20-%20Illuminary%20Keeper HTTP/1.1" 200 None
+2024-12-17 21:59:07,385 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/4/cards/1468x2048/64e095fe763fc62418378753f9402623bea9e227.jpg
+2024-12-17 21:59:49,206 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-17 21:59:51,135 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Ice%20Block HTTP/1.1" 200 None
+2024-12-17 21:59:51,278 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/4/cards/1468x2048/f76b2ea6b45eff3bc8e4399145cc17a0601f5c8d.jpg
+2024-12-17 21:59:57,430 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-17 21:59:58,996 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Flynn%20Rider%20-%20Frenemy HTTP/1.1" 200 None
+2024-12-17 21:59:59,148 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/4/cards/1468x2048/7224f997fc148baa0b7f81c1eda6fcc3fd003db0.jpg
+2024-12-17 22:01:09,725 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-17 22:01:12,493 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Sail%20The%20Azurite%20Sea HTTP/1.1" 200 None
+2024-12-17 22:01:12,631 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/6/cards/1468x2048/fd93751649ac3ea8f8772ba49c8c1fe068002835.jpg
+2024-12-17 22:01:16,704 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-17 22:01:18,055 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Chernabog's%20Followers%20-%20Creatures%20of%20Evil HTTP/1.1" 200 None
+2024-12-17 22:01:18,197 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/3/cards/1468x2048/fc074d501302eb2b93e2554793fcaf50b3bf7291.jpg
+2024-12-17 22:03:12,597 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-17 22:03:14,462 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Merlin%20-%20Goat HTTP/1.1" 200 None
+2024-12-17 22:03:14,600 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/b7eb6c689c037217079766fdb77c3bac3e51cb4c.jpg
+2024-12-17 22:05:52,268 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-17 22:05:54,018 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Genie%20-%20Wish%20Fulfilled HTTP/1.1" 200 None
+2024-12-17 22:05:54,164 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/6/cards/1468x2048/c5b76da3e608d34edb07244cd9b875ee86906328.jpg
+2024-12-17 22:06:53,164 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-17 22:06:55,470 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Hiram%20Flaversham%20-%20Toymaker HTTP/1.1" 200 None
+2024-12-17 22:06:55,599 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/39dfc9ffd3253c48c9af5dd55c4b3e4b4b5e6229.jpg
+2024-12-17 22:13:36,148 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-17 22:13:37,439 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Lady%20Tremaine%20-%20Imperious%20Queen HTTP/1.1" 200 None
+2024-12-17 22:13:37,638 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/5e796e48332af4142b10ca0f86e65d9bfdb05884.jpg
+2024-12-17 22:14:19,484 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-17 22:14:20,745 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Maleficent%20-%20Monstrous%20Dragon HTTP/1.1" 200 None
+2024-12-17 22:14:20,892 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/1/cards/1468x2048/e993215bfdaa515f6ea00fafc1918f549119f993.jpg
+2024-12-17 22:15:32,075 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-17 22:15:33,309 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Madam%20Mim%20-%20Fox HTTP/1.1" 200 None
+2024-12-17 22:15:33,463 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/fe2ef495a1152561572949784c16bf23abb28057.jpg
+2024-12-18 20:59:32,851 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-18 20:59:35,634 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Genie%20-%20Wish%20Fulfilled HTTP/1.1" 200 None
+2024-12-18 20:59:35,805 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/6/cards/1468x2048/c5b76da3e608d34edb07244cd9b875ee86906328.jpg
+2024-12-18 20:59:39,043 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-18 20:59:40,780 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Diablo%20-%20Obedient%20Raven HTTP/1.1" 200 None
+2024-12-18 20:59:40,937 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/6/cards/1468x2048/2e01e17467891f7c933dbaa00e1459d23db3fe4f.jpg
+2024-12-18 20:59:45,191 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-18 20:59:46,313 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Cendrillon%20-%20Fait%20sensation%20au%20bal HTTP/1.1" 200 None
+2024-12-18 20:59:46,448 - DEBUG - Failed to fetch card by name: list index out of range
+2024-12-18 20:59:46,448 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcast.com/v0/cards/1/207
+2024-12-18 21:01:06,871 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-18 21:01:08,483 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Cinderella%20-%20Ballroom%20Sensation HTTP/1.1" 200 None
+2024-12-18 21:01:08,660 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/77de68daecd823babbb58edb1c8e14d7106e83bb.jpg
+2024-12-18 21:13:18,265 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-18 21:13:19,566 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Cursed%20Merfolk%20-%20Ursula's%20Handiwork HTTP/1.1" 200 None
+2024-12-18 21:13:19,759 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/3/cards/1468x2048/b7103ca278a75cad8f7d065acda0c2e80da0b7dc.jpg
+2024-12-18 21:18:50,093 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-18 21:18:51,783 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Genie%20-%20Wish%20Fulfilled HTTP/1.1" 200 None
+2024-12-18 21:18:51,937 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/6/cards/1468x2048/c5b76da3e608d34edb07244cd9b875ee86906328.jpg
+2024-12-18 21:19:02,888 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-18 21:19:04,277 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Piglet%20-%20Pooh%20Pirate%20Captain HTTP/1.1" 200 None
+2024-12-18 21:19:04,423 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/3/cards/1468x2048/1574bddb75c78a6fd2251d61e2993b5146201319.jpg
+2024-12-18 21:20:13,443 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-18 21:20:14,767 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Mr.%20Smee%20-%20Bumbling%20Mate HTTP/1.1" 200 None
+2024-12-18 21:20:14,911 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/3/cards/1468x2048/bcf814ab41506290ab1b8158ebda6ee61b4bb579.jpg
+2024-12-18 21:36:53,424 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-18 21:36:54,662 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Daisy%20Duck%20-%20Donald's%20Date HTTP/1.1" 200 None
+2024-12-18 21:36:54,838 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/1574bddb75c78a6fd2251d61e2993b5146201319.jpg
+2024-12-18 21:37:14,743 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-18 21:37:16,000 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Madam%20Mim%20-%20Fox HTTP/1.1" 200 None
+2024-12-18 21:37:16,154 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/fe2ef495a1152561572949784c16bf23abb28057.jpg
+2024-12-18 21:40:09,100 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2024-12-18 21:40:10,871 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Brawl HTTP/1.1" 200 None
+2024-12-18 21:40:11,054 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/4/cards/1468x2048/2a7541babb57434e5631ffa2b5639e24f8ce84fc.jpg
+2025-01-09 21:09:25,774 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-01-09 21:09:28,140 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Pete%20-%20Games%20Referee HTTP/1.1" 200 None
+2025-01-09 21:09:28,322 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/752ae7bdbb96bf25280b55990570beabf2048ce0.jpg
+2025-01-09 21:09:28,732 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-01-09 21:09:30,221 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Pete%20-%20Games%20Referee HTTP/1.1" 200 None
+2025-01-09 21:09:30,384 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/752ae7bdbb96bf25280b55990570beabf2048ce0.jpg
+2025-01-09 21:20:02,014 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-01-09 21:20:03,946 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Pawpsicle HTTP/1.1" 200 None
+2025-01-09 21:20:04,132 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/2659fc519890c924f82b4475ddd71b058178d02b.jpg
+2025-01-09 21:20:37,526 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-01-09 21:20:39,064 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Cinderella%20-%20Stouthearted HTTP/1.1" 200 None
+2025-01-09 21:20:39,216 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/26e7458dc56ab2830fadba7bd2c1aa10e981518d.jpg
+2025-01-09 21:20:41,204 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-01-09 21:20:42,426 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Cinderella%20-%20Ballroom%20Sensation HTTP/1.1" 200 None
+2025-01-09 21:20:42,586 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/77de68daecd823babbb58edb1c8e14d7106e83bb.jpg
+2025-01-09 21:24:23,081 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-01-09 21:24:24,361 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Hiram%20Flaversham%20-%20Toymaker HTTP/1.1" 200 None
+2025-01-09 21:24:24,526 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/39dfc9ffd3253c48c9af5dd55c4b3e4b4b5e6229.jpg
+2025-01-09 21:24:26,789 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-01-09 21:24:28,081 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Ariel%20-%20Spectacular%20Singer HTTP/1.1" 200 None
+2025-01-09 21:24:28,220 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/1/cards/1468x2048/da4b9237bacccdf19c0760cab7aec4a8359010b0.jpg
+2025-01-09 21:29:48,451 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-01-09 21:29:49,744 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Imperial%20Bow HTTP/1.1" 200 None
+2025-01-09 21:29:49,920 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/4/cards/1468x2048/7f03f3f2febc46f3fa832d98251b0c98f64bc19b.jpg
+2025-01-09 21:31:17,915 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-01-09 21:31:19,304 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Robin%20Hood%20-%20Champion%20of%20Sherwood HTTP/1.1" 200 None
+2025-01-09 21:31:19,514 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/3/cards/1468x2048/3a2dc677d8e85ac856541744e288d504882feb36.jpg
+2025-01-09 21:33:53,017 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-01-09 21:33:54,344 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Daisy%20Duck%20-%20Donald's%20Date HTTP/1.1" 200 None
+2025-01-09 21:33:54,489 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/5/cards/1468x2048/1574bddb75c78a6fd2251d61e2993b5146201319.jpg
+2025-01-09 21:33:56,918 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-01-09 21:33:58,135 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Cogsworth%20-%20Grandfather%20Clock HTTP/1.1" 200 None
+2025-01-09 21:33:58,300 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/2a2b47bf21a372f267deccbb420567f3d450b3c0.jpg
+2025-01-09 21:37:18,862 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-01-09 21:37:20,101 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Jim%20Hawkins%20-%20Stubborn%20Cabin%20Boy HTTP/1.1" 200 None
+2025-01-09 21:37:20,278 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/6/cards/1468x2048/572e20738130fddc7c389f2ab14f4e4b22a97c39.jpg
+2025-01-09 21:37:25,702 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-01-09 21:37:27,016 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Lilo%20-%20Escape%20Artist HTTP/1.1" 200 None
+2025-01-09 21:37:27,181 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/6/cards/1468x2048/da4b9237bacccdf19c0760cab7aec4a8359010b0.jpg
+2025-01-09 21:44:02,409 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-01-09 21:44:03,715 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Pawpsicle HTTP/1.1" 200 None
+2025-01-09 21:44:03,882 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/2659fc519890c924f82b4475ddd71b058178d02b.jpg
+2025-01-09 21:44:10,661 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-01-09 21:44:12,033 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Cinderella%20-%20Ballroom%20Sensation HTTP/1.1" 200 None
+2025-01-09 21:44:12,194 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/77de68daecd823babbb58edb1c8e14d7106e83bb.jpg
+2025-01-09 21:49:57,048 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-01-09 21:49:58,299 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Pawpsicle HTTP/1.1" 200 None
+2025-01-09 21:49:58,464 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/2659fc519890c924f82b4475ddd71b058178d02b.jpg
+2025-01-09 21:53:00,847 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-01-09 21:53:02,206 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Fishbone%20Quill HTTP/1.1" 200 None
+2025-01-09 21:53:02,360 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/1/cards/1468x2048/f76b2ea6b45eff3bc8e4399145cc17a0601f5c8d.jpg
+2025-01-09 21:53:13,677 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-01-09 21:53:14,948 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Pawpsicle HTTP/1.1" 200 None
+2025-01-09 21:53:15,122 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/2659fc519890c924f82b4475ddd71b058178d02b.jpg
+2025-01-09 22:04:50,201 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-01-09 22:04:52,012 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Sisu%20-%20Empowered%20Sibling HTTP/1.1" 200 None
+2025-01-09 22:04:52,086 - DEBUG - Writing CSS for player 1 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/4/cards/1468x2048/0ca9277f91e40054767f69afeb0426711ca0fddd.jpg
+2025-01-09 22:05:01,406 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-01-09 22:05:03,297 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Simba%20-%20Fighting%20Prince HTTP/1.1" 200 None
+2025-01-09 22:05:03,376 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/3/cards/1468x2048/19a448c01aa2e7d55979473b647e282459995b85.jpg
