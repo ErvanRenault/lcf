@@ -9,9 +9,19 @@ import requests
 import numpy as np
 import tkinter as tk
 from tkinter import filedialog, ttk
+import socketserver
+import threading
+import http.server
+import webbrowser
 
 import time
 import os
+
+
+PORT = 8000
+DIRECTORY = os.path.dirname(os.path.abspath(__file__))  # Serve files from the script's folder
+
+
 
 # Logging configuration
 logging.basicConfig(
@@ -21,35 +31,60 @@ logging.basicConfig(
 )
 
 
-# def update_css_class(file_path, class_name, new_styles):
-#     try:
-#         with open(file_path, 'r') as file:
-#             css_content = file.read()
-#     except FileNotFoundError:
-#         css_content = ""
 
-#     class_pattern = re.compile(rf'\.{re.escape(class_name)}\s*\{{[^}}]*\}}', re.DOTALL)
-#     new_class_definition = f".{class_name} {{\n" + "\n".join(f"    {style}: {value};" for style, value in new_styles.items()) + "\n}\n"
+def start_server():
+    """Starts an HTTP server in a separate thread."""
+    os.chdir(DIRECTORY)  # Change directory to serve index.html properly
+    handler = http.server.SimpleHTTPRequestHandler
+    with socketserver.TCPServer(("", PORT), handler) as httpd:
+        print(f"Serving at http://localhost:{PORT}")
+        httpd.serve_forever()  # Keep server running
 
-#     if class_pattern.search(css_content):
-#         css_content = class_pattern.sub(new_class_definition, css_content)
-#     else:
-#         css_content += "\n" + new_class_definition
+# Start the server in a background thread
+threading.Thread(target=start_server, daemon=True).start()
 
-#     with open(file_path, 'w') as file:
-#         file.write(css_content)
+# Allow some time for the server to start
+time.sleep(1)
 
-# def write_css_file(url, player_number):
-#     logging.debug(f'Writing CSS for player {player_number} with URL: {url}')
-#     class_name = f"player{player_number}"
-#     new_styles = {
-#         "background-image": f'url("{url}")',
-#         "background-repeat": "no-repeat",
-#         "background-size": "contain",
-#         "width": "100%",
-#         "height": "100%"
-#     }
-#     update_css_class("background.css", class_name, new_styles)
+# 🔹 Open the `index.html` file in the default web browser
+webbrowser.open(f"http://localhost:{PORT}/index.html")
+
+# Now, continue with your main script (modify index.html, etc.)
+print("Server is running. You can now fetch files via http://localhost:8000/index.html")
+
+
+def update_css_class(file_path, class_name, new_styles):
+    try:
+        with open(file_path, 'r') as file:
+            css_content = file.read()
+    except FileNotFoundError:
+        css_content = ""
+
+    class_pattern = re.compile(rf'\.{re.escape(class_name)}\s*\{{[^}}]*\}}', re.DOTALL)
+    new_class_definition = f".{class_name} {{\n" + "\n".join(f"    {style}: {value};" for style, value in new_styles.items()) + "\n}\n"
+
+    if class_pattern.search(css_content):
+        css_content = class_pattern.sub(new_class_definition, css_content)
+    else:
+        css_content += "\n" + new_class_definition
+
+    with open(file_path, 'w') as file:
+        file.write(css_content)
+
+    trigger_browser_refresh()
+
+def write_css_file(url, player_number):
+    logging.debug(f'Writing CSS for player {player_number} with URL: {url}')
+    class_name = f"player{player_number}"
+    new_styles = {
+        "background-image": f'url("{url}")',
+        "background-repeat": "no-repeat",
+        "background-size": "contain",
+        "background-position": "center",
+        "width": "100%",
+        "height": "100%"
+    }
+    update_css_class("background.css", class_name, new_styles)
 
 
 
@@ -88,17 +123,35 @@ def update_html_image(file_path, player_number, image_url):
     
     # Replace the existing image URL for the specific player
     new_html = re.sub(
-        rf'(<img id="player{player_number}" src=")(.*?)(")',
-        rf'\1{image_url}\3',
+        rf'(<img id="player{player_number}" src=")(.*?)(")',  # Capture the src URL for player{player_number}
+        rf'\1{image_url}\3',  # Replace it with the new URL
         html_content
     )
     
+    print(f"✅ Updated {file_path} with new image for player {player_number}")
+
     with open(file_path, 'w') as file:
         file.write(new_html)
 
-    # Ensure that the modification timestamp is updated after writing to the file
-    os.utime(file_path, None)  # This updates the file's access and modification times
-    print(f"File {file_path} has been updated.")  # Log the file update
+
+    # 🔹 Trigger a browser refresh
+    trigger_browser_refresh()
+
+    # # Ensure that the modification timestamp is updated after writing to the file
+    # os.utime(file_path, None)  # This updates the file's access and modification times
+    # print(f"File {file_path} has been updated.")  # Log the file update
+
+
+
+# 🔹 Function to Refresh Browser
+def trigger_browser_refresh():
+    """Creates a dummy file change to force browser refresh."""
+    refresh_file = os.path.join(DIRECTORY, "index.html")
+    with open(refresh_file, "a") as file:
+        file.write(" ")  # Update file with current timestamp
+    print("🔄 Triggered browser refresh!")
+
+
 
 def find_card_image(set_number, card_number, player_number):
     try:
@@ -114,7 +167,8 @@ def find_card_image(set_number, card_number, player_number):
         logging.debug(f'Error fetching card image: {e}')
         image_url = "https://api.lorcast.com/v0/cards/1/207"  # Default placeholder image
 
-        update_html_image("index.html", player_number, image_url)
+    update_html_image("index.html", player_number, image_url)
+    # write_css_file(image_url, player_number)
 
 def find_card_image_by_name(card_name, player_number):
     if not card_name:
