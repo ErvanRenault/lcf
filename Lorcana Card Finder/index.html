@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="background.css">
+    <title>Lorcana Card Viewer</title>
+</head>
+<body>
+
+   
+    <div class="img-container">
+        <img id="player1" src="https://api.lorcana.ravensburger.com/images/fr/set7/cards/1468x2048/1f1362ea41d1bc65be321c0a378a20159f9a26d0.jpg" class="card-format">
+        <img id="player2" src="https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/3be76cc016a8c850661956c5f71d14c621cf6a69.jpg" class="card-format">
+    </div>
+
+    <script>
+        // Try to retrieve the last modified timestamp from localStorage, or set to 0 initially
+        let lastModified = parseInt(localStorage.getItem('lastModified')) || 0;
+
+        async function checkForUpdate() {
+            try {
+                // Use the HEAD method to check the Last-Modified header of index.html
+                const response = await fetch("index.html", { method: "HEAD", cache: "no-cache" });
+                const newModified = new Date(response.headers.get("Last-Modified")).getTime();
+    
+                // If the timestamp has changed, reload the page
+                if (newModified > lastModified) {
+                    lastModified = newModified;  // Update the lastModified value
+                    localStorage.setItem('lastModified', lastModified);  // Store it in localStorage
+                    console.log("🔄 File updated, reloading...");
+                    location.reload();
+                }
+            } catch (error) {
+                console.error("Error checking file update:", error);
+            }
+        }
+    
+        // Check for updates every second
+        setInterval(checkForUpdate, 1000);
+    </script>
+
+
+    <!-- <div id="player1" class="player1"></div>
+    <div id="player2" class="player2"></div> -->
+</body>
+</html>                                                                                                         

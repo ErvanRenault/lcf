@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['lorcana_card_finder.py'],
-             pathex=['C:\\Users\\ervan\\Documents\\Lorcana Card Finder'],
+             pathex=['C:\\Users\\ervan\\Documents\\workspace\\Lorcana Card Finder'],
              binaries=[],
              datas=[],
              hiddenimports=[],

@@ -1,0 +1,20 @@
+/* Container that holds both player divs */
+body {
+    display: flex; /* Activate Flexbox */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+    height: 100vh; /* Use full viewport height */
+    margin: 0; /* Remove default body margin */
+    background-color: #f4f4f4; /* Optional: light background */
+}
+
+.img-container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+/* Flex container for the player divs */
+.card-format {
+    border-radius: 50px;
+}

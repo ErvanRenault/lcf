@@ -241,3 +241,84 @@
 2025-02-25 21:11:51,858 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/ac2646028f5b8b9bbf7a967f4ac71b8866135211.jpg
 2025-02-25 21:12:00,057 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/a6f16ab483da9847d431a822e6c85e144dc54f30.jpg
 2025-02-25 21:12:08,872 - DEBUG - Writing CSS for player 2 with URL: https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/b6692ea5df920cad691c20319a6fffd7a4a766b8.jpg
+2025-02-25 23:34:19,754 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-02-25 23:34:21,072 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=MES%20AMIS%20DE%20L'AU-DEL%C3%83%E2%82%AC HTTP/11" 200 None
+2025-02-25 23:34:21,224 - DEBUG - Failed to fetch card by name: list index out of range
+2025-02-25 23:34:23,835 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-02-25 23:34:25,082 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Bagarre HTTP/11" 200 None
+2025-02-25 23:34:25,234 - DEBUG - Failed to fetch card by name: list index out of range
+2025-02-26 22:16:52,770 - DEBUG - Error fetching card image: [Errno 2] No such file or directory: './cardSets/.json'
+2025-02-26 22:17:06,069 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-02-26 22:17:07,510 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Bagarre HTTP/11" 200 None
+2025-02-26 22:17:07,671 - DEBUG - Failed to fetch card by name: list index out of range
+2025-02-26 22:17:11,849 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-02-26 22:17:13,092 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Bagarre HTTP/11" 200 None
+2025-02-26 22:17:13,242 - DEBUG - Failed to fetch card by name: list index out of range
+2025-02-26 22:17:14,380 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-02-26 22:17:15,784 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Flynn%20Rider%20-%20Faux%20ami HTTP/11" 200 None
+2025-02-26 22:17:15,933 - DEBUG - Failed to fetch card by name: list index out of range
+2025-02-26 22:18:08,350 - DEBUG - Error fetching card image: [Errno 2] No such file or directory: './cardSets/.json'
+2025-02-26 22:19:30,819 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-02-26 22:19:32,046 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Bagarre HTTP/11" 200 None
+2025-02-26 22:19:51,085 - DEBUG - Failed to fetch card by name: list index out of range
+2025-02-26 22:26:37,450 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-02-26 22:26:38,620 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Madam%20Mim%20-%20Fox HTTP/11" 200 None
+2025-02-26 22:27:06,898 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-02-26 22:27:07,949 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Brawl HTTP/11" 200 None
+2025-02-26 22:27:15,369 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-02-26 22:27:16,407 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Sisu%20-%20Emboldened%20Warrior HTTP/11" 200 None
+2025-02-26 22:27:18,994 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-02-26 22:27:20,236 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Chernabog's%20Followers%20-%20Creatures%20of%20Evil HTTP/11" 200 None
+2025-02-26 22:27:24,968 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-02-26 22:27:26,083 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Elsa%20-%20The%20Fifth%20Spirit HTTP/11" 200 None
+2025-02-26 22:27:31,756 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-02-26 22:27:33,032 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Maui%20-%20Half-Shark HTTP/11" 200 None
+2025-02-26 22:27:36,262 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-02-26 22:27:37,237 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Shere%20Khan%20-%20Menacing%20Predator HTTP/11" 200 None
+2025-02-26 22:27:42,361 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-02-26 22:27:43,632 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Sisu%20-%20Emboldened%20Warrior HTTP/11" 200 None
+2025-02-26 22:28:01,283 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-02-26 22:28:02,249 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Brawl HTTP/11" 200 None
+2025-02-26 22:29:25,335 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-02-26 22:29:26,478 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Sisu%20-%20Emboldened%20Warrior HTTP/11" 200 None
+2025-02-26 22:29:28,362 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-02-26 22:29:29,474 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Chernabog's%20Followers%20-%20Creatures%20of%20Evil HTTP/11" 200 None
+2025-02-26 22:29:33,002 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-02-26 22:29:34,187 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Be%20Prepared HTTP/11" 200 None
+2025-02-26 22:29:39,222 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-02-26 22:29:40,380 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Brawl HTTP/11" 200 None
+2025-03-04 21:16:07,921 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-03-04 21:16:09,362 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Spirale%20de%20Rubis HTTP/11" 200 None
+2025-03-04 21:16:09,530 - DEBUG - Failed to fetch card by name: list index out of range
+2025-03-04 21:16:12,827 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-03-04 21:16:14,189 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Spirale%20de%20Saphir HTTP/11" 200 None
+2025-03-04 21:16:14,360 - DEBUG - Failed to fetch card by name: list index out of range
+2025-03-04 21:17:04,291 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-03-04 21:17:05,501 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Spirale%20de%20Rubis HTTP/11" 200 None
+2025-03-04 21:17:05,669 - DEBUG - Failed to fetch card by name: list index out of range
+2025-03-04 21:17:12,791 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-03-04 21:17:14,177 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Spirale%20de%20Saphir HTTP/11" 200 None
+2025-03-04 21:17:14,346 - DEBUG - Failed to fetch card by name: list index out of range
+2025-03-04 21:17:52,480 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-03-04 21:17:53,694 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Spirale%20de%20Rubis HTTP/11" 200 None
+2025-03-04 21:17:53,863 - DEBUG - Failed to fetch card by name: list index out of range
+2025-03-04 21:18:07,565 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-03-04 21:18:08,798 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Spirale%20de%20Saphir HTTP/11" 200 None
+2025-03-04 21:18:08,967 - DEBUG - Failed to fetch card by name: list index out of range
+2025-03-04 21:20:41,046 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-03-04 21:20:42,295 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Belle%20-%20Apprentie%20inventrice HTTP/11" 200 None
+2025-03-04 21:20:42,463 - DEBUG - Failed to fetch card by name: list index out of range
+2025-03-04 21:20:50,726 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-03-04 21:20:52,133 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Tamatoa%20-%20Happy%20as%20a%20Clam HTTP/11" 200 None
+2025-03-04 21:20:52,301 - DEBUG - Failed to fetch card by name: list index out of range
+2025-03-04 21:23:16,749 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-03-04 21:23:18,011 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=The%20Queen%20-%20Jealous%20Beauty HTTP/11" 200 None
+2025-03-04 21:23:18,178 - DEBUG - Failed to fetch card by name: list index out of range
+2025-03-04 21:23:55,749 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-03-04 21:23:56,983 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Elsa%20-%20Spirit%20of%20Winter HTTP/11" 200 None
+2025-03-04 21:24:10,633 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-03-04 21:24:11,856 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Belle%20-%20Apprentice%20Inventor HTTP/11" 200 None
+2025-03-04 21:24:14,685 - DEBUG - Failed to fetch card by name: list index out of range
+2025-03-04 21:24:32,068 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-03-04 21:24:33,274 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Belle%20-%20Apprentice%20Inventor HTTP/11" 200 None
+2025-03-04 21:26:05,507 - DEBUG - Failed to fetch card by name: list index out of range

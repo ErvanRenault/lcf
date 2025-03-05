@@ -9,17 +9,15 @@
 <body>
 
    
-    <img id="player1" src="https://api.lorcana.ravensburger.com/images/fr/expansions/1/cards/1468x2048/3be76cc016a8c850661956c5f71d14c621cf6a69.jpg">
-    <img id="player2" src="https://api.lorcana.ravensburger.com/images/fr/expansions/6/cards/1468x2048/4afa8f9e90756f0f919a124a1dfbba19be004edc.jpg">
-
-    <div class="">
-
+    <div class="img-container">
+        <img id="player1" src="https://api.lorcana.ravensburger.com/images/fr/expansions/1/cards/1468x2048/92cfceb39d57d914ed8b14d0e37643de0797ae56.jpg" class="card-format">
+        <img id="player2" src="https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/3be76cc016a8c850661956c5f71d14c621cf6a69.jpg" class="card-format">
     </div>
 
     <script>
         // Try to retrieve the last modified timestamp from localStorage, or set to 0 initially
         let lastModified = parseInt(localStorage.getItem('lastModified')) || 0;
-    
+
         async function checkForUpdate() {
             try {
                 // Use the HEAD method to check the Last-Modified header of index.html
@@ -46,4 +44,4 @@
     <!-- <div id="player1" class="player1"></div>
     <div id="player2" class="player2"></div> -->
 </body>
-</html>                                                   
+</html>                                                                                   

@@ -1,70 +1,3 @@
-/* 
-html{
-    display: flex;
-    height: 100%;
-}
-
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 150px;
-    width: 100%;
-}
-
-
-.image-format {
-    height: 70%;
-    border-radius: 25px;
-}
-
-.player2 {
-    background-image: url("https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/b6692ea5df920cad691c20319a6fffd7a4a766b8.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    width: 100%;
-    height: 100%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-.player1 {
-    background-image: url("https://api.lorcana.ravensburger.com/images/fr/expansions/1/cards/1468x2048/7224f997fc148baa0b7f81c1eda6fcc3fd003db0.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    width: 100%;
-    height: 100%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- */
-
-
 /* Container that holds both player divs */
 body {
     display: flex; /* Activate Flexbox */
@@ -75,53 +8,13 @@ body {
     background-color: #f4f4f4; /* Optional: light background */
 }
 
+.img-container {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
 /* Flex container for the player divs */
-div#player1, div#player2 {
-    display: flex; /* Enable Flexbox */
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    width: 45%; /* You can adjust the width to control the size of the images */
-    height: 70%; /* Adjust height as necessary */
-    margin: 10px; /* Optional: Adds spacing between the two player divs */
+.card-format {
+    border-radius: 50px;
 }
-
-
-
-/* Player 1 image */
-.player1 {
-    background-image: url("https://api.lorcana.ravensburger.com/images/fr/expansions/1/cards/1468x2048/7224f997fc148baa0b7f81c1eda6fcc3fd003db0.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    width: 100%;
-    height: 100%;
-}
-
-
-
-
-
-
-
-
-
-
-/* Player 2 image */
-.player2 {
-    background-image: url("https://api.lorcana.ravensburger.com/images/fr/expansions/2/cards/1468x2048/b6692ea5df920cad691c20319a6fffd7a4a766b8.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    width: 100%;
-    height: 100%;
-}
-
-
-
-
-
-
-
-
-
-
