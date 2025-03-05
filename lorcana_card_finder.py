@@ -171,19 +171,40 @@ def find_card_image(set_number, card_number, player_number):
     # write_css_file(image_url, player_number)
 
 def find_card_image_by_name(card_name, player_number):
-    if not card_name:
-        #write_css_file("", player_number)
-        return
 
-    try:
-        response = requests.get(f"https://api.lorcana-api.com/cards/fetch?search=name={card_name}")
-        response.raise_for_status()
-        parsed = response.json()
-        card_number = str(parsed[0]["Card_Num"])
-        set_number = str(parsed[0]["Set_Num"])
-        find_card_image(set_number, card_number, player_number)
-    except (requests.RequestException, IndexError, KeyError) as e:
-        logging.debug(f'Failed to fetch card by name: {e}')
+    directory = './cardSets';
+
+    for filename in os.listdir(directory):
+        if filename.endswith(".json"):
+            file_path = os.path.join(directory, filename)
+            with open(file_path, "r", encoding="utf-8") as file:
+                try:
+                    data = json.load(file)
+                    for card in data.get("cards", []):
+                        if card.get("name").lower() == card_name.lower():
+                            update_html_image("index.html", player_number, card["images"]["full"])
+                except json.JSONDecodeError:
+                    print(f"Error reading {filename}, skipping...")
+
+    return None  # Return None if no match is found
+
+
+
+
+
+    # if not card_name:
+    #     #write_css_file("", player_number)
+    #     return
+
+    # try:
+    #     response = requests.get(f"https://api.lorcana-api.com/cards/fetch?search=name={card_name}")
+    #     response.raise_for_status()
+    #     parsed = response.json()
+    #     card_number = str(parsed[0]["Card_Num"])
+    #     set_number = str(parsed[0]["Set_Num"])
+    #     find_card_image(set_number, card_number, player_number)
+    # except (requests.RequestException, IndexError, KeyError) as e:
+    #     logging.debug(f'Failed to fetch card by name: {e}')
        # write_css_file("https://api.lorcast.com/v0/cards/1/207", player_number)
 
 # Helper function to create labels and entry widgets

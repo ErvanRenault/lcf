@@ -322,3 +322,9 @@
 2025-03-04 21:24:32,068 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
 2025-03-04 21:24:33,274 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Belle%20-%20Apprentice%20Inventor HTTP/11" 200 None
 2025-03-04 21:26:05,507 - DEBUG - Failed to fetch card by name: list index out of range
+2025-03-05 20:34:32,410 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-03-05 20:34:34,046 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Ruby%20Coil HTTP/1.1" 200 None
+2025-03-05 20:34:34,047 - DEBUG - Failed to fetch card by name: list index out of range
+2025-03-05 20:34:40,508 - DEBUG - Starting new HTTPS connection (1): api.lorcana-api.com:443
+2025-03-05 20:34:41,911 - DEBUG - https://api.lorcana-api.com:443 "GET /cards/fetch?search=name=Sapphire%20Coil HTTP/1.1" 200 None
+2025-03-05 20:34:42,155 - DEBUG - Failed to fetch card by name: list index out of range

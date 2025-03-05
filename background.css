@@ -10,11 +10,11 @@ body {
 
 .img-container {
     display: flex;
-    flex-direction: row;
+    height: 99%;
     gap: 50px;
 }
 
 /* Flex container for the player divs */
 .card-format {
-    border-radius: 50px;
+    border-radius: 15px;
 }
