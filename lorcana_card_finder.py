@@ -181,7 +181,7 @@ def find_card_image_by_name(card_name, player_number):
                 try:
                     data = json.load(file)
                     for card in data.get("cards", []):
-                        if card.get("name").lower() == card_name.lower():
+                        if card.get("fullName").lower() == card_name.lower():
                             update_html_image("index.html", player_number, card["images"]["full"])
                 except json.JSONDecodeError:
                     print(f"Error reading {filename}, skipping...")
@@ -303,7 +303,7 @@ def setup_gui():
         if not card_deck_file:
             return
 
-        list_of_cards = np.genfromtxt(card_deck_file, delimiter=";", dtype=str, unpack=True)
+        list_of_cards = np.genfromtxt(card_deck_file, delimiter=";", dtype=str, unpack=True, encoding="utf-8")
         list_of_cards = [re.search(r"\d+\s(.+)", card).group(1) for card in list_of_cards if re.search(r"\d+\s(.+)", card)]
 
         row_index, col_index = 0, 0
